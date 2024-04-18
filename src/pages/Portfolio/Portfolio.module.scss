@@ -1,0 +1,19 @@
+@import "./../../assets/styles/variables.scss";
+
+.title {
+  display: flex;
+  gap: 50px;
+  h2 {
+    font-size: 96px;
+    color: $gray;
+    cursor: pointer;
+  }
+  span {
+    font-size: 96px;
+    font-weight: 600;
+    color: $black;
+  }
+  .active {
+    color: $black;
+  }
+}
