@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 //import './App.scss';
-import ProjectPage from './components/ProjectPage/ProjectPage';
+import ProjectPage from './pages/ProjectPage/ProjectPage';
 
 function App() {
   return (
