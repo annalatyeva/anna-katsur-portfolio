@@ -1,19 +1,28 @@
 @import "./../../assets/styles/variables.scss";
 
-.title {
-  display: flex;
-  gap: 50px;
-  h2 {
-    font-size: 96px;
-    color: $gray;
-    cursor: pointer;
-  }
-  span {
-    font-size: 96px;
-    font-weight: 600;
-    color: $black;
-  }
-  .active {
-    color: $black;
+body {
+  background-color: $beige;
+}
+
+.portfolio {
+  margin: 60px auto 0;
+  padding: 0px 40px;
+  .title {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+    h2 {
+      font-size: 96px;
+      color: $darkgray;
+      cursor: pointer;
+    }
+    span {
+      font-size: 96px;
+      font-weight: 600;
+      color: $black2;
+    }
+    .active {
+      color: $black2;
+    }
   }
 }

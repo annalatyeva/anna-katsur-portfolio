@@ -1,14 +1,20 @@
 import style from "../PortfolioItem/PortfolioItem.module.scss";
 
-const PortfolioItem = ({ img, number, description }) => {
+const PortfolioItem = ({ link, number, description, format }) => {
   return (
-    <div>
+    <div className={style.container}>
       <div className={style.wrapper}>
-        <img src={img} />
-        <span>/</span>
-        <h3>{number}</h3>
+        {format === "image" ? (
+          <img src={link} alt="project" />
+        ) : (
+          <video autoPlay muted loop>
+            <source src={link} type="video/mp4" />
+          </video>
+        )}
+        <span className={style.number}>/</span>
+        <h3 className={style.number}>{number}</h3>
       </div>
-      <p>{description}</p>
+      <p className={style.description}>{description}</p>
     </div>
   );
 };
