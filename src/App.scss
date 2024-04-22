@@ -11,5 +11,5 @@ header *.active::after {
   content: "";
   height: 3px; 
   width: 100%; 
-  background-color: black;
+  background-color: $bordo;
 }

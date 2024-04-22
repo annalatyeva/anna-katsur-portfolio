@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 
 import Header from './components/Header/Header';
+import Portfolio from "./pages/Portfolio/Portfolio";
 import './App.scss';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <main>
           <Routes>
             <Route path='/' element={<div>Главная</div>} />
-            <Route path='/portfolio' element={<div>Портфолио</div>} />
+            <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/about' element={<div>Обо мне</div>} />
             <Route path='/contact' element={<div>Контакты</div>} />
           </Routes>
