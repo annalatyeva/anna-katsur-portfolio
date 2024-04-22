@@ -11,7 +11,7 @@ const ProjectPage = () => {
         <h4 className="project-switch__title">
           Art Direction for the Rebranding of the Fin-Tech Product Ecosystem
         </h4>
-        <p className="project-switch__number">/</p>
+        <p className="project-switch__number">/02</p>
       </div>
     </div>
   );

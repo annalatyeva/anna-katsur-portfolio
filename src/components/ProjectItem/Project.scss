@@ -93,16 +93,19 @@
   line-height: 36px;
 }
 .project-team__container {
+  column-count: 2;
+  column-gap: 181px;
+}
+
+.project-team__item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
-.project-team__item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50%;
-}
+
 .project-team__item_job {
+  display: flex;
+  justify-self: flex-start;
   color: $gray;
   font-size: 24px;
   font-weight: 500;
@@ -110,6 +113,8 @@
 }
 
 .project-team__item_name {
+  display: flex;
+  justify-self: flex-start;
   font-size: 24px;
   font-weight: 500;
   line-height: 26.4px;
