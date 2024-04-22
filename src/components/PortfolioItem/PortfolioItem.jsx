@@ -1,3 +1,4 @@
+import ReactPlayer from "react-player";
 import style from "../PortfolioItem/PortfolioItem.module.scss";
 
 const PortfolioItem = ({ link, number, description, format }) => {
@@ -12,7 +13,7 @@ const PortfolioItem = ({ link, number, description, format }) => {
           </video>
         )}
         <span className={style.number}>/</span>
-        <h3 className={style.number}>{number}</h3>
+        <p className={style.number}>{number}</p>
       </div>
       <p className={style.description}>{description}</p>
     </div>
