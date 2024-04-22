@@ -1,7 +1,15 @@
-@import "components/variables.scss";
+@import "../src/assets/styles/variables.scss";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header *.active::after {
+  display: block;
+  content: "";
+  height: 3px; 
+  width: 100%; 
+  background-color: black;
 }
