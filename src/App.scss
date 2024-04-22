@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-header *.active::after {
+.links *.active::after {
   display: block;
   content: "";
   height: 3px; 
