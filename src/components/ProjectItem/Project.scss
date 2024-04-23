@@ -1,31 +1,38 @@
 @import "../../assets/styles/variables.scss";
 
 .project-container {
-  display: flex;
-  flex-direction: column;
-  color: $black;
+  background-color: $beige;
+  color: $black;  
+  font-family: $dmsans;
+    padding: 60px 40px 100px;
+  // display: flex;
+  // flex-direction: column;
+  // 
 }
 .project-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
+  align-items: end; 
+  padding: 0px 11.5px 20px;
   h2 {
+    max-width: 40%;
     font-size: 64px;
     font-size: 64px;
     font-weight: 500;
     line-height: 70.4px;
   }
   .project-header__number {
-    font-family: Trap;
     font-size: 96px;
     font-weight: 400;
-    line-height: 105.6px;
-    letter-spacing: -0.1em;
+    line-height: 105.6px;   
     text-align: left;
+   
   }
 }
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 .project-gallery__wrapper {
   overflow: hidden;
@@ -83,9 +90,20 @@
 }
 .project-gallery2 {
   display: grid;
-  grid-template-rows: repeat(2fr);
+  gap: 20px;
 }
 
+.project-gallery3 {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.project-gallery3__item {
+  width: auto;
+  height: auto;
+}
 .project-team {
   padding: 80px 40px;
 }
@@ -97,18 +115,16 @@
 }
 .project-team__container {
   column-count: 2;
-  column-gap: 181px;
 }
 
 .project-team__item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .project-team__item_job {
-  display: flex;
-  justify-self: flex-start;
+  padding-bottom: 5px;
   color: $gray;
   font-size: 24px;
   font-weight: 500;
@@ -116,24 +132,39 @@
 }
 
 .project-team__item_name {
-  display: flex;
-  justify-self: flex-start;
+  padding-bottom: 5px;
   font-size: 24px;
   font-weight: 500;
   line-height: 26.4px;
+  text-transform: uppercase;
+}
+
+.project-switch{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  
+}
+.project-switch__link{
+  position: relative;
+    text-decoration: none;
+    color: inherit;
 }
 
 .project-switch__title {
+  padding: 40px 22.5px;
   font-size: 36px;
+  max-width: 40%;
   font-weight: 500;
   line-height: 36px;
   text-align: left;
+  
 }
 
 .project-switch__number {
   font-size: 96px;
   font-weight: 400;
   line-height: 105.6px;
-  letter-spacing: -0.1em;
   text-align: left;
 }
