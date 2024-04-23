@@ -18,6 +18,18 @@ const Project2 = () => {
         </h2>
         <p className="project-header__number">/02</p>
       </div>
+      <div className="project-gallery">
+        <div className="project-gallery__wrapper">
+          <ReactPlayer
+            url="https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479"
+            className="project-gallery__item"
+            playing={false}
+            loop={true}
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </div>
       <div className="project-article">
         <section className="project-article__item1">
           Seasons is a joint IT series by Epic Growth and Yandex. Every week, a
@@ -32,29 +44,6 @@ const Project2 = () => {
           are like the chosen ones of dystopian fiction who have been summoned
           to take part in a TV show to share their knowledge, but without making
           speculative predictions.
-        </section>
-      </div>
-      <div className="project-gallery">
-        <div className="project-gallery__wrapper">
-          <ReactPlayer
-            url="https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479"
-            className="project-gallery__item"
-            playing={false}
-            loop={true}
-            width="100%"
-            height="100%"
-          />
-        </div>
-      </div>
-      <div className="project-article">
-        <section className="project-article__item2">
-          <p>
-            IT is a space for today became the theme of YaTalks conference of
-            2021 by Yandex, so as the general metaphor of the visual identity of
-            this event, uniting nearly 100 experts from leading companies from
-            all over the world to share their views on the IT industry,
-            technology, and digital trends.
-          </p>
         </section>
       </div>
       <div className="project-gallery2">
@@ -78,9 +67,10 @@ const Project2 = () => {
         </div>
         <div className="project-gallery__wrapper">
           <ReactPlayer
-            url="https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479"
+            url="https://player.vimeo.com/video/617935917?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479"
             className="project-gallery__item"
             playing={false}
+            muted={true}
             loop={true}
             width="100%"
             height="100%"
@@ -115,6 +105,7 @@ const Project2 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/624512767?h=98467760ff&badge=0&autopause=0&quality=1080p&background=1&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={false}
             loop={true}
             width="100%"
@@ -126,6 +117,7 @@ const Project2 = () => {
             url="https://player.vimeo.com/video/624616937?h=6497567e37&badge=0&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
             playing={false}
+            muted={true}
             loop={true}
             width="100%"
             height="100%"
