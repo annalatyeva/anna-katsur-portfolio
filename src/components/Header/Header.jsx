@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import CVpdf from "../../assets/files/CV_Anna_Katsur_Creative_Director.pdf";
 import headerStyle from "../Header/Header.module.scss";
@@ -19,12 +20,9 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <NavLink
-                to="/"
-                className={`${headerStyle.logo} + ${setActiveLink}`}
-              >
+              <Link to="/" className={headerStyle.logo}>
                 Anna Katsur
-              </NavLink>
+              </Link>
             </li>
             <div className={headerStyle.links}>
               <li>
