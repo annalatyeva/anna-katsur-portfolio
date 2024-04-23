@@ -1,18 +1,18 @@
 // import Header from "../Header";
 // import Footer from "../Footer";
 import "./ProjectPage.scss";
-import Project from "../../components/ProjectItem/Project";
+import Project1 from "../../components/ProjectItem/Project";
+import Project2 from "../../components/ProjectItem/Project2";
+import Project4 from "../../components/ProjectItem/Project4";
+import Project5 from "../../components/ProjectItem/Project5";
 
 const ProjectPage = () => {
   return (
     <div className="project">
-      <Project />
-      <div className="project-switch">
-        <h4 className="project-switch__title">
-          Art Direction for the Rebranding of the Fin-Tech Product Ecosystem
-        </h4>
-        <p className="project-switch__number">/02</p>
-      </div>
+      <Project1 />
+      <Project2 />
+      <Project4 />
+      <Project5 />
     </div>
   );
 };

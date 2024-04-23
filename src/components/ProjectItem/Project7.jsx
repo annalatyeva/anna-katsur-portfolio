@@ -1,16 +1,16 @@
 import "./Project.scss";
 
-const Project5 = () => {
+const Project7 = () => {
   return (
     <div className="project-container">
       <div className="project-header">
         <h2 className="project-header__title">
-          CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND
+          ART DIRECTION FOR THE REBRANDING OF THE FIN-TECH PRODUCT ECOSYSTEM
         </h2>
-        <p className="project-header__number">/05</p>
+        <p className="project-header__number">/07</p>
       </div>
     </div>
   );
 };
 
-export default Project5;
+export default Project7;

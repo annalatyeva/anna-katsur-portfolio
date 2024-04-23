@@ -5,10 +5,16 @@ const Project3 = () => {
     <div className="project-container">
       <div className="project-header">
         <h2 className="project-header__title">
-          Creation of a Brand and Visual Identity for an HR Brand
+          DEVELOPMENT OF SBER'S CORPORATE TYPEFACE SYSTEM
         </h2>
         <p className="project-header__number">/03</p>
       </div>
+      <button className="project-switch">
+        <h4 className="project-switch__title">
+          DEVELOPMENT OF AN ACCESSORIES COLLECTION
+        </h4>
+        <p className="project-switch__number">/04</p>
+      </button>
     </div>
   );
 };
