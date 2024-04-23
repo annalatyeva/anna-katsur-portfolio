@@ -1,6 +1,6 @@
 import "./Project.scss";
 import ReactPlayer from "react-player";
-
+import { Link } from "react-router-dom";
 import galleryItem from "../../assets/images/project5-pic1.png";
 import galleryItem2 from "../../assets/images/project5-pic2.png";
 
@@ -183,12 +183,14 @@ const Project5 = () => {
           </div>
         </div>
       </div>
-      <button className="project-switch">
+      <Link to="/project06" className="project-switch__link">   
+      <div className="project-switch"> 
         <h4 className="project-switch__title">
         CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND
         </h4>
-        <p className="project-switch__number">/06</p>
-      </button>
+        <p className="project-switch__number">/ 06</p>       
+      </div>
+      </Link>
     </div>
   );
 };
