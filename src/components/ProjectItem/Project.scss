@@ -17,6 +17,9 @@
  .project2-header__title{
   max-width: 70%;
   }
+  .project5-header__title{
+    max-width: 60%;
+    }
   h2 {
     font-size: 64px;
     font-size: 64px;
@@ -168,7 +171,13 @@
   font-weight: 500;
   line-height: 26.4px;
 }
-
+.project5-team__item_job{
+  padding-bottom: 5px;
+  color: $gray;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26.4px; 
+}
 .project-team__item_name {
   padding-bottom: 5px;
   font-size: 24px;
