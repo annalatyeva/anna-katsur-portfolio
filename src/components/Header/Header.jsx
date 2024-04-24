@@ -40,7 +40,7 @@ const Header = () => {
                   Contact
                 </NavLink>
               </li>
-              {/* <li>
+              <li>
                 <NavLink
                   to="/projecttest"
                   setActiveLink
@@ -48,7 +48,7 @@ const Header = () => {
                 >
                   projecttest
                 </NavLink>
-              </li> */}
+              </li>
             </div>
           </ul>
         </nav>
