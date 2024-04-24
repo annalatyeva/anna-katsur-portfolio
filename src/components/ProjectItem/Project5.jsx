@@ -4,6 +4,25 @@ import { Link } from "react-router-dom";
 import galleryItem from "../../assets/images/project5-pic1.png";
 import galleryItem2 from "../../assets/images/project5-pic2.png";
 
+const team = [
+  { role: "Design Director", name: "Anna Katsur" },
+  { role: "Creative Director", name: "Ivan Velichko" },
+  { role: "Creative Strategic Director", name: "Anastasia Butrym" },
+  { role: "Art Director", name: "Sofya Karavaeva" },
+  { role: "Design Director", name: "Konstantin Frolov" },
+  { role: "Motion Design Director", name: "Dmitry Kozlyaev" },
+  { role: "Designer", name: "Dmitry Okulich-Kazarin" },
+  { role: "Designer", name: "Dina Isaeva" },
+  {
+    role: "Designer, Motion Designer, Creative Coder",
+    name: "Daniil Svetlov",
+  },
+  { role: "Client Service Director", name: "Maria Orlova" },
+  { role: "Project Manager", name: "Anna Eremina" },
+  { role: "Content Director", name: "Vasily Kolesnik" },
+  { role: "Content Producer", name: "Ekaterina Shcherbakova" },
+];
+
 const Project5 = () => {
   return (
     <div className="project-container">
@@ -178,8 +197,8 @@ const Project5 = () => {
         <h5 className="project-team__title">TEAM</h5>
         <div className="project-team__container">
           <div className="project-team__item">
-            <p className="project-team__item_job">Design Director</p>
-            <p className="project-team__item_name">Anna Katsur</p>
+          <p>{team.map(item => (<p className="project-team__item_job" key={item.id}> {item.role}</p>))}</p>
+            <p>{team.map(item => (<p className="project-team__item_name" key={item.id}> {item.name}</p>))}</p>
           </div>
         </div>
       </div>
