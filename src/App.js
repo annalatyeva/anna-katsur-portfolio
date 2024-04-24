@@ -1,9 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import "./App.scss";
+
 import Header from "./components/Header/Header";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
-import "./App.scss";
+
+import Contacts from "./pages/Сontacts/Contacts";
 import Project from "./components/ProjectItem/Project";
 import Project2 from "./components/ProjectItem/Project2";
 import Project3 from "./components/ProjectItem/Project3";
@@ -22,7 +25,7 @@ function App() {
             <Route path="/" element={<div>Главная</div>} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<div>Обо мне</div>} />
-            <Route path="/contact" element={<div>Контакты</div>} />
+            <Route path="/contact" element={<div><Contacts /></div>} />
             <Route path="/projecttest" element={<ProjectPage />} />
             <Route path="/project01" element={<Project />} />
             <Route path="/project02" element={<Project2 />} />
