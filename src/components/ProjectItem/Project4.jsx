@@ -1,4 +1,5 @@
 import "./Project.scss";
+import { Link } from "react-router-dom";
 import galleryItem from "../../assets/images/project4-pic1.png";
 import galleryItem2 from "../../assets/images/project4-pic2.png";
 import galleryItem3 from "../../assets/images/project4-pic3.png";
@@ -14,15 +15,23 @@ import galleryItem12 from "../../assets/images/project4-pic12.png";
 import galleryItem13 from "../../assets/images/project4-pic13.png";
 import galleryItem14 from "../../assets/images/project4-pic14.png";
 
+const team =[
+  { role: "Design Director", name: "Anna Katsur" },
+  { role: "Creative Producer", name: "Roman Usmanov" },
+  { role: "Art Director", name: "Aliya Karnaukhova" },
+  { role: "Copywriter, Creative", name: "Ksyusha Kantserova" },
+];
+
 const Project4 = () => {
   return (
     <div className="project-container">
       <div className="project-header">
-        <h2 className="project-header__title">
+        <h2 className="project2-header__title">
           DEVELOPMENT OF AN ACCESSORIES COLLECTION
         </h2>
-        <p className="project-header__number">/04</p>
-        <div className="project-header__logo">
+        <p className="project-header__number">/ 04</p>
+      </div>
+      <div className="project-header__logo">
           <img
             className="project-gallery__img"
             src={galleryItem}
@@ -31,13 +40,12 @@ const Project4 = () => {
             height="100%"
           />
         </div>
-      </div>
       <div className="project-article">
-        <section className="project-article__item1">
+        <section className="project4-article__item1">
           <h6 className="project-article__title">Project</h6>
-          <p>Creation of a Welcome-Pack for New Employees</p>
+          <p className="project4-article__text">Creation of a Welcome-Pack for New Employees</p>
           <h6 className="project-article__title">Project Objective</h6>
-          <p>
+          <p className="project4-article__text">
             Each new employee encountered the issue of receiving disjointed
             items without a unified concept. Our goal was to create an
             integrated and meaningful welcome-pack that reflects Yandex's brand
@@ -72,10 +80,10 @@ const Project4 = () => {
         />
       </div>
       <div className="project-article">
-        <section className="project-article__item1">
+        <section className="project4-article__item1">
           <h6 className="project-article__title">Project Features</h6>
-          <p>Personalisation</p>
-          <p>
+          <p className="project-article__subtitle">Personalisation</p>
+          <p className="project4-article__text">
             The welcome-pack gives new employees their first experience of
             customisation, offering choices of elements "To Attach To", "To Hook
             With", and "Other Options".
@@ -106,9 +114,9 @@ const Project4 = () => {
         />
       </div>
       <div className="project-article">
-        <section className="project-article__item1">
-          <p>Universal Design</p>
-          <p>
+        <section className="project4-article__item1">
+          <p className="project-article__subtitle">Universal Design</p>
+          <p className="project4-article__text">
             The bag, part of the welcome-pack, is designed to be functional and
             stylish. It is available in three colour schemes and includes a
             small detachable pouch for greater versatility.
@@ -139,15 +147,15 @@ const Project4 = () => {
         />
       </div>
       <div className="project-article">
-        <section className="project-article__item1">
-          <p>Practicality and Usefulness</p>
-          <p>
+        <section className="project4-article__item1">
+          <p className="project-article__subtitle">Practicality and Usefulness</p>
+          <p className="project4-article__text">
             The contents of the bag were planned based on feedback from new
             hires, including all the necessary items for a comfortable start in
             the new role.
           </p>
-          <p>Implementation of the Project</p>
-          <p>
+          <p className="project-article__subtitle">Implementation of the Project</p>
+          <p className="project4-article__text">
             First impressions are crucial. Yandex's welcome-pack is designed to
             reflect the corporate values and culture of the company, as well as
             to provide new employees with the necessary tools for successful
@@ -201,18 +209,21 @@ const Project4 = () => {
       </div>
       <div className="project-team">
         <h5 className="project-team__title">TEAM</h5>
-        <div className="project-team__container">
+        <div className="project4-team__container">
           <div className="project-team__item">
-            <p className="project-team__item_name">Anna Katsur</p>
+          <p>{team.map(item => (<p className="project-team__item_job" key={item.id}> {item.role}</p>))}</p>
+            <p>{team.map(item => (<p className="project-team__item_name" key={item.id}> {item.name}</p>))}</p>
           </div>
         </div>
       </div>
-      <button className="project-switch">
+      <Link to="/project05" className="project-switch__link">   
+      <div className="project-switch"> 
         <h4 className="project-switch__title">
-          CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND
+        CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND
         </h4>
-        <p className="project-switch__number">/05</p>
-      </button>
+        <p className="project-switch__number">/ 05</p>       
+      </div>
+      </Link> 
     </div>
   );
 };
