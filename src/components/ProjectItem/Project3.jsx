@@ -1,4 +1,5 @@
 import "./Project.scss";
+import { Link } from "react-router-dom";
 
 const Project3 = () => {
   return (
@@ -9,12 +10,14 @@ const Project3 = () => {
         </h2>
         <p className="project-header__number">/03</p>
       </div>
-      <button className="project-switch">
+      <Link to="/project04" className="project-switch__link">   
+      <div className="project-switch"> 
         <h4 className="project-switch__title">
-          DEVELOPMENT OF AN ACCESSORIES COLLECTION
+        DEVELOPMENT OF AN ACCESSORIES COLLECTION
         </h4>
-        <p className="project-switch__number">/04</p>
-      </button>
+        <p className="project-switch__number">/ 04</p>       
+      </div>
+      </Link> 
     </div>
   );
 };
