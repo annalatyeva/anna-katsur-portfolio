@@ -22,7 +22,6 @@
     }
   h2 {
     font-size: 64px;
-    font-size: 64px;
     font-weight: 500;
     line-height: 70.4px;
   }
@@ -214,4 +213,244 @@
   font-weight: 400;
   line-height: 105.6px;
   text-align: left;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 990px){
+  .project-header {
+    h2 {
+      font-size: 36px;
+      line-height: 50.4px;
+    }
+    .project-header__number {
+      font-size: 76px;     
+    }
+  }
+  .project-article {
+    padding: 40px 20px;
+  
+    .project-article__item1 {
+      font-size: 24px;
+      line-height: 32.2px;
+    }
+  
+    .project4-article__item1 {
+      font-size: 24px;
+      line-height: 31.25px;
+      padding-top: 20px;
+      .project4-article__text   {
+         padding: 10px 0;
+      }
+    }
+  
+  .project-article__title {
+    padding-top: 40px;
+    font-size: 26px;
+  }
+  
+  .project-article__subtitle{
+    padding-top: 20px;
+  }
+  
+    .project-article__item2 {
+      font-size: 16px;
+      line-height: 21.25px;
+      padding-top: 20px;
+      p {
+        padding: 10px 0;
+      }
+    }
+  }
+  .project-team__item_job {
+    font-size: 14px;
+    line-height: 16.4px;
+  }
+  .project5-team__item_job{
+    font-size: 12px;
+    line-height: 16.4px; 
+  }
+  .project-team__item_name {
+    font-size: 14px;
+    line-height: 16.4px;
+  }
+  .project-switch__title {
+    padding: 20px 12.5px;
+    font-size: 24px;
+    line-height: 26px;    
+  }
+  
+  .project-switch__number {
+    font-size: 76px;
+    line-height: 85.6px;
+  }
+}
+@media screen and (max-width: 989px) and (min-width: 450px){
+  .project-header {
+    .project-header__title{
+      max-width: 70%;
+    }
+   .project2-header__title{
+    max-width: 70%;
+    }
+    .project5-header__title{
+      max-width: 70%;
+      }
+    h2 {
+      font-size: 20px;
+      line-height: 25.4px;
+    }
+    .project-header__number {
+      font-size: 55px;  
+    }
+  }
+  .project-article {  
+    padding: 20px 10px;
+    .project-article__item1 {
+      font-size: 14px;
+      line-height: 22.2px;
+    }
+  
+    .project4-article__item1 {
+      font-size: 14px;
+      line-height: 21.25px;
+      padding-top: 10px;
+      .project4-article__text   {
+         padding: 5px 0;
+      }
+          }
+  
+  .project-article__title {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .project-article__subtitle{
+    padding-top: 10px;
+  }
+    .project-article__item2 {
+      font-size: 12px;
+      line-height: 17.25px;
+      padding-top: 10px;
+      p {
+        padding: 5px 0;
+      }
+      }
+  }
+  .project-team__item_job {
+    font-size: 9px;
+    line-height: 9.4px;
+  }
+  .project5-team__item_job{
+    font-size: 7px;
+    line-height: 7.4px; 
+  }
+  .project-team__item_name {
+    font-size: 9px;
+    line-height: 9.4px;
+  }
+  .project-switch__title {
+    padding: 20px 6.5px;
+    font-size: 18px;
+    line-height: 16px;  
+    max-width: 70%;  
+  }
+  
+  .project-switch__number {
+    font-size: 49px;
+    line-height: 66.6px;
+  }
+}
+
+@media screen and (max-width: 449px) and (min-width: 200px){
+  .project-header {
+    .project-header__title{
+      max-width: 60%;
+    }
+   .project2-header__title{
+    max-width: 60%;
+    }
+    .project5-header__title{
+      max-width: 60%;
+      }
+    h2 {
+      font-size: 10px;
+      line-height: 15.4px;
+    }
+    .project-header__number {
+      font-size: 30px;  
+    }
+  }
+  .project-article {  
+    padding: 10px 5px;
+    .project-article__item1 {
+      font-size: 9px;
+      line-height: 12.2px;
+    }
+  
+    .project4-article__item1 {
+      font-size: 9px;
+      line-height: 11.25px;
+      padding-top: 5px;
+      .project4-article__text   {
+         padding: 3px 0;
+      }
+          }
+  
+  .project-article__title {
+    font-size: 11px;
+    padding-top: 5px;
+  }
+  .project-article__subtitle{
+    padding-top: 5px;
+  }
+    .project-article__item2 {
+      font-size: 8px;
+      line-height: 11px;
+      padding-top: 5px;
+      p {
+        padding: 3px 0;
+      }
+      }
+  }
+
+  .project-team {
+    padding: 20px 10px;
+  }
+  .project-team__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .project-team__container {
+    column-count: 1;
+  
+  }
+
+  .project-team__item {
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-team__item_job {
+    font-size: 9px;
+    line-height: 9.4px;
+  }
+  .project5-team__item_job{
+    font-size: 7px;
+    line-height: 9px; 
+  }
+  .project-team__item_name {
+    font-size: 9px;
+    line-height: 9.4px;
+  }
+  .project-switch__title {
+    padding: 10px 6.5px;
+    font-size: 10px;
+    line-height: 11px;  
+    max-width: 70%;  
+  }
+  
+  .project-switch__number {
+    font-size: 30px;
+    line-height: 50.6px;
+  }
 }
