@@ -1,0 +1,18 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+    padding: 105px;
+    margin-left: 40px;
+    min-width: 600px;
+    width: 65%;
+}
+
+.info {
+    color: $black;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.smalInfo {
+    font-size: 36px;
+}
