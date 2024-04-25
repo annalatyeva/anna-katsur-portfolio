@@ -3,21 +3,41 @@ import ReactPlayer from "react-player";
 import { Link } from "react-router-dom";
 import galleryItem from "../../assets/images/project5-pic1.png";
 import galleryItem2 from "../../assets/images/project5-pic2.png";
+import galleryItem3 from "../../assets/images/project5-pic3.png";
+
+const team = [
+  { role: "Design Director", name: "Anna Katsur" },
+  { role: "Creative Director", name: "Ivan Velichko" },
+  { role: "Creative Strategic Director", name: "Anastasia Butrym" },
+  { role: "Art Director", name: "Sofya Karavaeva" },
+  { role: "Design Director", name: "Konstantin Frolov" },
+  { role: "Motion Design Director", name: "Dmitry Kozlyaev" },
+  { role: "Designer", name: "Dmitry Okulich-Kazarin" },
+  { role: "Designer", name: "Dina Isaeva" },
+  {
+    role: "Designer, Motion Designer, Creative Coder",
+    name: "Daniil Svetlov",
+  },
+  { role: "Client Service Director", name: "Maria Orlova" },
+  { role: "Project Manager", name: "Anna Eremina" },
+  { role: "Content Director", name: "Vasily Kolesnik" },
+  { role: "Content Producer", name: "Ekaterina Shcherbakova" },
+];
 
 const Project5 = () => {
   return (
     <div className="project-container">
       <div className="project-header">
-        <h2 className="project-header__title">
+        <h2 className="project5-header__title">
           CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND
         </h2>
-        <p className="project-header__number">/05</p>
+        <p className="project-header__number">/ 05</p>
       </div>
       <div className="project-gallery__wrapper">
           <ReactPlayer
             url="https://player.vimeo.com/video/862109483?h=6fd26ffd5d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
@@ -32,108 +52,112 @@ const Project5 = () => {
 
         </section>
       </div>
-      <div className="project-gallery__wrapper">
+      <div className="project-gallery">
+      <div className="project-gallery__wrapper item_horizontal">
           <ReactPlayer
             url="https://player.vimeo.com/video/870069354?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper">
+        <div className="project-gallery__wrapper item_horizontal">
           <ReactPlayer
-            url="https://player.vimeo.com/video/870069354?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
+            url="https://player.vimeo.com/video/862075633?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
+        </div>
+        <div className="project-article">
         <section className="project-article__item2">
-        Different YfD sections are segmented with distinctive visual features. A custom generative graphic tool is created for conferences. For meetups, the principle of creating abstract 3D objects is developed. Playful stickers correspond with the tone and character of less formal events.
-
-
+          Different YfD sections are segmented with distinctive visual features. A custom generative graphic tool is created for conferences. For meetups, the principle of creating abstract 3D objects is developed. Playful stickers correspond with the tone and character of less formal events.  
         </section>
+        </div>
         <div className="project-gallery">
-        <div className="project-gallery__wrapper">
+        <div className="project-gallery__wrapper item_vertical">
           <ReactPlayer
             url="https://player.vimeo.com/video/870061329?badge=0&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper">
+        <div className="project-gallery__wrapper item_vertical">
           <ReactPlayer
             url="https://player.vimeo.com/video/862318538?h=4ea0f25798&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper">
+        <div className="project-gallery__wrapper item_horizontal">
           <ReactPlayer
             url="https://player.vimeo.com/video/862129417?h=42ab2fd2e8&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
         </div>
+        <div className="project-article">
         <section className="project-article__item2">
         The custom palette combines Yandex's primary color with bright additional hues, curated to distinguish between the brand's diverse product lines and features. This highlights the brand's digital origin and adds a touch of versatility and vibrancy to its overall identity.​​​​​​​
         </section>
+        </div>
         <div className="project-gallery">
-        <div className="project-gallery__wrapper">
-          <ReactPlayer
-            url="https://player.vimeo.com/video/862109483?h=6fd26ffd5d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479
-            "
+        <div className="project-gallery__wrapper item_horizontal">
+        <img
             className="project-gallery__item"
-            playing={false}
-            loop={true}
+            src={galleryItem3}
+            alt=""
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper">
+        <div className="project-gallery__wrapper item_horizontal">
           <ReactPlayer
             url="https://player.vimeo.com/video/871822571?h=ad9f8e895c&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper">
+        <div className="project-gallery__wrapper item_horizontal">
           <ReactPlayer
             url="https://player.vimeo.com/video/871804706?h=c56d51ec06&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
         </div>
+        <div className="project-article">
         <section className="project-article__item2">
         The fluid visual system is based on typography. It adapts the syntax of programming languages. Diverse product directions of YfD are highlighted by a generator of motion and static graphics, supported by a vibrant color palette. The identity seamlessly adjusts to digital and print media, from posters and landing pages to installations and merchandise.​​​​​​​
         </section>
+        </div>
         <div className="project-gallery">
         <div className="project-gallery__wrapper">
           <ReactPlayer
             url="https://player.vimeo.com/video/862118913?h=0de10078a4&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
@@ -143,7 +167,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/871822600?h=e8494aa47d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
@@ -163,11 +187,11 @@ const Project5 = () => {
             width="100%"
             height="100%"
           />
-        <div className="project-gallery__wrapper">
+        <div className="project-gallery__wrapper item_horizontal">
           <ReactPlayer
             url="https://player.vimeo.com/video/862081255?h=c33522dcd3&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
-            playing={false}
+            playing={true}
             loop={true}
             width="100%"
             height="100%"
@@ -178,8 +202,8 @@ const Project5 = () => {
         <h5 className="project-team__title">TEAM</h5>
         <div className="project-team__container">
           <div className="project-team__item">
-            <p className="project-team__item_job">Design Director</p>
-            <p className="project-team__item_name">Anna Katsur</p>
+          <p>{team.map(item => (<p className="project5-team__item_job" key={item.id}> {item.role}</p>))}</p>
+            <p>{team.map(item => (<p className="project-team__item_name" key={item.id}> {item.name}</p>))}</p>
           </div>
         </div>
       </div>

@@ -4,16 +4,16 @@ import "./App.scss";
 
 import Header from "./components/Header/Header";
 import Portfolio from "./pages/Portfolio/Portfolio";
-import ProjectPage from "./pages/ProjectPage/ProjectPage";
 
 import Contacts from "./pages/Сontacts/Contacts";
-import Project from "./components/ProjectItem/Project";
-import Project2 from "./components/ProjectItem/Project2";
-import Project3 from "./components/ProjectItem/Project3";
-import Project4 from "./components/ProjectItem/Project4";
-import Project5 from "./components/ProjectItem/Project5";
-import Project6 from "./components/ProjectItem/Project6";
-import Project7 from "./components/ProjectItem/Project7";
+import Project1 from "./pages/ProjectPages/Project1";
+import Project2 from "./pages/ProjectPages/Project2";
+import Project3 from "./pages/ProjectPages/Project3";
+import Project4 from "./pages/ProjectPages/Project4";
+import Project5 from "./pages/ProjectPages/Project5";
+import Project6 from "./pages/ProjectPages/Project6";
+import Project7 from "./pages/ProjectPages/Project7";
+
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<div>Обо мне</div>} />
             <Route path="/contact" element={<div><Contacts /></div>} />
-            <Route path="/projecttest" element={<ProjectPage />} />
-            <Route path="/project01" element={<Project />} />
+            <Route path="/projecttest" element={<Project1 />} />
+            <Route path="/project01" element={<Project1 />} />
             <Route path="/project02" element={<Project2 />} />
             <Route path="/project03" element={<Project3 />} />
             <Route path="/project04" element={<Project4 />} />

@@ -90,23 +90,23 @@ const Project4 = () => {
           </p>
         </section>
       </div>
-      <div className="project-gallery">
+      <div className="project-gallery4">
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_vertical"
           src={galleryItem3}
           alt=""
           width="100%"
           height="100%"
         />
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_vertical"
           src={galleryItem4}
           alt=""
           width="100%"
           height="100%"
         />
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_horizontal"
           src={galleryItem5}
           alt=""
           width="100%"
@@ -123,23 +123,23 @@ const Project4 = () => {
           </p>
         </section>
       </div>
-      <div className="project-gallery">
+      <div className="project-gallery4">
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_vertical"
           src={galleryItem6}
           alt=""
           width="100%"
           height="100%"
         />
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_vertical"
           src={galleryItem7}
           alt=""
           width="100%"
           height="100%"
         />
         <img
-          className="project-gallery__img"
+          className="project-gallery__img  item_horizontal"
           src={galleryItem8}
           alt=""
           width="100%"
@@ -193,14 +193,14 @@ const Project4 = () => {
           height="100%"
         />
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_horizontal"
           src={galleryItem13}
           alt=""
           width="100%"
           height="100%"
         />
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_horizontal"
           src={galleryItem14}
           alt=""
           width="100%"
