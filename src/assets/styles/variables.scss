@@ -1,9 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-$black: #000000;
-$gray: #aeaeae;
-$black2: rgb(38, 38, 38);
-$darkgray: rgb(153, 153, 153);
-$beige: rgb(250, 245, 238);
+@font-face {
+  font-family: 'Non Natural Grotesk Plain Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NonNatural-GroteskPlainRegular.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'Non Natural Grotesk Plain Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url('../fonts/NonNatural-GroteskPlainBold.woff') format("woff");
+}
+
+$black: #262626;
+$gray: #999999;
+$beige: #FAF5EE;
 $bordo: #4E162B;
 $dmsans: "DM Sans", sans-serif;
+$nonRegular: 'Non Natural Grotesk Plain Regular';
+$nonBold: 'Non Natural Grotesk Plain Bold';

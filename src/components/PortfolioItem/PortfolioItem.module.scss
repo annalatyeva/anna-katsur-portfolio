@@ -14,12 +14,11 @@
       cursor: pointer;
     }
     .number {
-      margin-top: auto;
       font-family: $dmsans;
       font-size: 96px;
       font-weight: 400;
-      line-height: 125px;
-      color: $black2;
+      line-height: 86px;
+      color: $black;
     }
   }
 
@@ -29,7 +28,56 @@
     font-family: $dmsans;
     font-size: 36px;
     font-weight: 500;
-    color: $black2;
+    color: $black;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .container {
+    margin-bottom: 80px;
+    .wrapper {
+      .number {
+        font-size: 76px;
+        line-height: 68px;
+      }
+    }
+    .description {
+      max-width: 556px;
+      font-size: 26px;
+    }
+  }
+}
+
+@media screen and (max-width: 862px) {
+  .container {
+    margin-bottom: 40px;
+    .wrapper {
+      .number {
+        font-size: 46px;
+        line-height: 42px;
+      }
+    }
+    .description {
+      max-width: 362px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .container {
+    margin-bottom: 20px;
+    .wrapper {
+      gap: 5px;
+      .number {
+        font-size: 28px;
+        line-height: 28px;
+      }
+    }
+    .description {
+      max-width: 260px;
+      font-size: 16px;
+    }
   }
 }
