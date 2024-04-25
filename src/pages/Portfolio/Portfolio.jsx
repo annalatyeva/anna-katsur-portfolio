@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import PortfolioItem from "../../components/PortfolioItem/PortfolioItem";
 import design_project3 from "./../../assets/images/design_project3.png";
 import design_project4 from "./../../assets/images/design_project4.png";
 import design_project6 from "./../../assets/images/brand_project6.png";
@@ -7,7 +9,6 @@ import yatalks from "./../../assets/videos/yatalks.mp4";
 import seasons from "./../../assets/videos/seasons.mp4";
 import yandex from "./../../assets/videos/yandex.mp4";
 import style from "../Portfolio/Portfolio.module.scss";
-import PortfolioItem from "../../components/PortfolioItem/PortfolioItem";
 
 const dataDesign = [
   {
@@ -79,22 +80,26 @@ const Portfolio = () => {
       <div>
         {activeTitle
           ? dataDesign.map((item) => (
-              <PortfolioItem
-                link={item.link}
-                number={item.number}
-                description={item.description}
-                format={item.format}
-                key={item.number}
-              />
+              <NavLink to={`/project${item.number}`}>
+                <PortfolioItem
+                  link={item.link}
+                  number={item.number}
+                  description={item.description}
+                  format={item.format}
+                  key={item.number}
+                />
+              </NavLink>
             ))
           : dataBrand.map((item) => (
-              <PortfolioItem
-                link={item.link}
-                number={item.number}
-                description={item.description}
-                format={item.format}
-                key={item.number}
-              />
+              <NavLink to={`/project${item.number}`}>
+                <PortfolioItem
+                  link={item.link}
+                  number={item.number}
+                  description={item.description}
+                  format={item.format}
+                  key={item.number}
+                />
+              </NavLink>
             ))}
       </div>
     </div>
