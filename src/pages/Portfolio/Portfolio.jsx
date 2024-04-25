@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PortfolioItem from "../../components/PortfolioItem/PortfolioItem";
 import design_project3 from "./../../assets/images/design_project3.png";
 import design_project4 from "./../../assets/images/design_project4.png";
@@ -77,7 +77,7 @@ const Portfolio = () => {
       <div>
         {activeTitle
           ? dataDesign.map((item) => (
-              <NavLink to={`/project${item.number}`}>
+              <Link to={`/project${item.number}`}>
                 <PortfolioItem
                   link={item.link}
                   number={item.number}
@@ -85,10 +85,10 @@ const Portfolio = () => {
                   format={item.format}
                   key={item.number}
                 />
-              </NavLink>
+              </Link>
             ))
           : dataBrand.map((item) => (
-              <NavLink to={`/project${item.number}`}>
+              <Link to={`/project${item.number}`}>
                 <PortfolioItem
                   link={item.link}
                   number={item.number}
@@ -96,7 +96,7 @@ const Portfolio = () => {
                   format={item.format}
                   key={item.number}
                 />
-              </NavLink>
+              </Link>
             ))}
       </div>
     </div>
