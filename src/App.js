@@ -5,8 +5,8 @@ import "./App.scss";
 import Header from "./components/Header/Header";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
-
 import Contacts from "./pages/Сontacts/Contacts";
+
 import Project from "./components/ProjectItem/Project";
 import Project2 from "./components/ProjectItem/Project2";
 import Project3 from "./components/ProjectItem/Project3";
