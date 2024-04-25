@@ -1,0 +1,11 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+    display: flex;
+    color: $black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
