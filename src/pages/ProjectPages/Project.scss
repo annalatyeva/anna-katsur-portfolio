@@ -459,16 +459,19 @@
   }
 
   .project-team__item_job {
+    padding-bottom: 10px;
     font-size: 14px;
-    line-height: 9.4px;
+    line-height: 100%; 
   }
   .project5-team__item_job{
-    font-size: 14px;
-    line-height: 9px; 
+    padding-bottom: 10px;
+    font-size: 13px;
+    line-height: 100%; 
   }
-  .project-team__item_name { 
+  .project-team__item_name {
+    padding-bottom: 10px; 
     font-size: 14px;
-    line-height: 9.4px;
+    line-height: 100%; 
   }
   .project-switch{
     justify-content: space-between;
