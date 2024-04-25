@@ -40,15 +40,6 @@ const Header = () => {
                   Contact
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/projecttest"
-                  setActiveLink
-                  className={setActiveLink}
-                >
-                  projecttest
-                </NavLink>
-              </li>
             </div>
           </ul>
         </nav>

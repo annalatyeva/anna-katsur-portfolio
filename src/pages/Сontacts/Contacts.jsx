@@ -4,7 +4,9 @@ const Contacts = () => {
   return (
     <div className={ContactsStyle.container}>
       <div className={ContactsStyle.info}>
-        Whether planning a&nbsp;workshop, needing a&nbsp;speaker for an&nbsp;event, or&nbsp;seeking expert advice on&nbsp;branding and&nbsp;design, I&nbsp;am&nbsp;ready to bring my&nbsp;expertise to your next project.
+        {window.innerWidth > 1023 ?
+          'Whether planning a workshop, needing    a speaker for an event, or seeking expert advice on branding and design, I am ready to bring my expertise to your next project.' : 
+          'WHETHER PLANNING A WORKSHOP, NEEDING A SPEAKER FOR AN EVENT, OR SEEKING EXPERT ADVICE ON BRANDING AND DESIGN, I AM READY TO BRING MY EXPERTISE TO YOUR NEXT PROJECT.'}
       </div>
       <p className={ContactsStyle.smalInfo}>Let's make a lasting impact together!</p>
     </div>
