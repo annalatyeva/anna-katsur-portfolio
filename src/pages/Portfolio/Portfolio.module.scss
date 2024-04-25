@@ -14,17 +14,17 @@ body {
     h2 {
       font-size: 96px;
       font-weight: 700;
-      color: $darkgray;
+      color: $gray;
       cursor: pointer;
     }
     span {
       font-size: 96px;
       font-weight: 700;
-      color: $black2;
+      color: $black;
       line-height: 96px;
     }
     .active {
-      color: $black2;
+      color: $black;
     }
   }
 }
