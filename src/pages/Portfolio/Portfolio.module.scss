@@ -12,14 +12,14 @@ body {
     gap: 50px;
     margin-bottom: 40px;
     h2 {
+      font-family: $nonBold;
       font-size: 96px;
-      font-weight: 700;
       color: $gray;
       cursor: pointer;
     }
     span {
+      font-family: $nonBold;
       font-size: 96px;
-      font-weight: 700;
       color: $black;
       line-height: 96px;
     }
@@ -45,7 +45,7 @@ body {
   }
 }
 
-@media screen and (max-width: 862px) {
+@media screen and (max-width: 890px) {
   .portfolio {
     padding: 0px 20px;
     .title {
