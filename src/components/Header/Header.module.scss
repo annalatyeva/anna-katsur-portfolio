@@ -1,65 +1,90 @@
-@import '../../assets/styles/variables.scss';
-
-* {
-    margin: 0;
-    padding: 0;
-}
+@import "../../assets/styles/variables.scss";
 
 header {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    background-color: $beige;
-    margin: auto;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: $beige;
+  margin: auto;
+  z-index: 10;
 }
 
 header * {
-    width: max-content;
-    color: $black;
-    text-decoration: none;
-    list-style-type: none;
+  width: max-content;
+  color: $black;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 header *a::after {
-    display: block;
-    content: "";
-    height: 3px; 
-    width: 0%; 
-    background-color: $bordo;
-    transition: width 0.4s ease-in-out; 
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: $bordo;
+  transition: width 0.4s ease-in-out;
 }
 
 header *a:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 .container {
-    padding: 20px 40px 0;
-    min-width: 600px;
-    width: 76%;
-    display: flex;
-    justify-content: space-between;
+  padding: 20px 40px 0;
+  min-width: 600px;
+  width: 80.5%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .download {
-    font-size: 24px;
+  font-family: $nonRegular;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  font-size: 24px;
+  height: min-content;
 }
 
 .logo {
-    line-height: 1em;
-    font-size: 64px;
+  font-family: $nonBold;
+  letter-spacing: 0.04em;
+  line-height: 1em;
+  font-size: 64px;
 }
 
 .links {
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    line-height: 1em;
-    padding-left: 167px;
-    font-size: 36px;
+  letter-spacing: 0.05em;
+  font-family: $nonRegular;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 1em;
+  padding-left: 191px;
+  font-size: 36px;
 }
 
+@media (max-width: 1024px) {
+  header *a::after {
+    height: 1px;
+  }
 
+  .container {
+    padding: 10px;
+    width: 100%;
+    min-width: 200px;
+  }
 
+  .download {
+    font-size: 16px;
+  }
 
+  .logo {
+    font-size: 24px;
+  }
+
+  .links {
+    font-size: 16px;
+    padding: 5px 0 0 71px;
+  }
+}
