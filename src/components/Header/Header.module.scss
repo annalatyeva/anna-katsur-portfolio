@@ -1,12 +1,12 @@
 @import "../../assets/styles/variables.scss";
 
 header {
-  width: 100%;
   position: sticky;
   top: 0;
-  background-color: $beige;
-  margin: auto;
   z-index: 10;
+  width: 100%;
+  margin: auto;
+  background-color: $beige;
 }
 
 header * {
@@ -19,8 +19,8 @@ header * {
 header *a::after {
   display: block;
   content: "";
-  height: 3px;
   width: 0%;
+  height: 3px;
   background-color: $bordo;
   transition: width 0.4s ease-in-out;
 }
@@ -30,38 +30,37 @@ header *a:hover::after {
 }
 
 .container {
-  padding: 20px 40px 0;
-  min-width: 600px;
-  width: 80.5%;
   display: flex;
   justify-content: space-between;
+  width: 80.5%;
+  min-width: 600px;
+  padding: 20px 40px 0;
 }
 
 .download {
+  height: min-content;
+  font-size: 24px;
   font-family: $nonRegular;
   font-weight: 600;
   letter-spacing: 0.07em;
-  font-size: 24px;
-  height: min-content;
 }
 
 .logo {
+  font-size: 64px;
   font-family: $nonBold;
   letter-spacing: 0.04em;
   line-height: 1em;
-  font-size: 64px;
 }
 
 .links {
-  letter-spacing: 0.05em;
-  font-family: $nonRegular;
-  padding: 20px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  line-height: 1em;
-  padding-left: 191px;
+  padding: 20px 0 0 191px;
   font-size: 36px;
+  font-family: $nonRegular;
+  letter-spacing: 0.05em;
+  line-height: 1em;
 }
 
 @media (max-width: 1024px) {
@@ -70,9 +69,9 @@ header *a:hover::after {
   }
 
   .container {
-    padding: 10px;
     width: 100%;
     min-width: 200px;
+    padding: 10px;
   }
 
   .download {
@@ -84,7 +83,7 @@ header *a:hover::after {
   }
 
   .links {
-    font-size: 16px;
     padding: 5px 0 0 71px;
+    font-size: 16px;
   }
 }
