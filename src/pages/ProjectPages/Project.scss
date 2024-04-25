@@ -4,7 +4,7 @@
   background-color: $beige;
   color: $black;  
   font-family: $dmsans;
-    padding: 60px 40px 100px;
+  padding: 60px 40px 100px;
 }
 .project-header {
   display: flex;
@@ -360,60 +360,88 @@
 }
 
 @media screen and (max-width: 449px) and (min-width: 200px){
+  .project-container {
+    padding: 40px 10px 50px;
+  }
   .project-header {
+    padding: 0 0 15px;
     .project-header__title{
-      max-width: 60%;
+      max-width: 90%;
     }
    .project2-header__title{
-    max-width: 60%;
+    max-width: 80%;
     }
     .project5-header__title{
-      max-width: 60%;
+      max-width: 80%;
       }
     h2 {
-      font-size: 10px;
-      line-height: 15.4px;
+      font-size: 20px;
+      line-height: 20px;
     }
     .project-header__number {
-      font-size: 30px;  
+      display: none; 
     }
   }
   .project-article {  
-    padding: 10px 5px;
+    padding: 50px 0;
     .project-article__item1 {
-      font-size: 9px;
-      line-height: 12.2px;
+      max-width: 100%;
+      font-size: 16px;
+      line-height: 110%;
     }
   
     .project4-article__item1 {
-      font-size: 9px;
-      line-height: 11.25px;
-      padding-top: 5px;
+      padding: 0 0;
+      max-width: 100%;
+      font-size: 14px;
+      line-height: 110%;
       .project4-article__text   {
-         padding: 3px 0;
+         padding: 15px 0;
       }
           }
   
   .project-article__title {
-    font-size: 11px;
+    font-size: 20px;
+    line-height: 110%;
     padding-top: 5px;
   }
   .project-article__subtitle{
-    padding-top: 5px;
+    padding-top: 15px;
   }
     .project-article__item2 {
-      font-size: 8px;
-      line-height: 11px;
-      padding-top: 5px;
+      align-self:baseline;
+      width: 100%;
+      font-size: 14px;
+      line-height: 100%;
+      padding-top: 15px;
       p {
-        padding: 3px 0;
+        padding: 15px 0;
       }
       }
   }
 
-  .project-team {
-    padding: 20px 10px;
+  .project-gallery {
+    gap: 5px;
   }
+  .project-gallery2 {
+    padding: 5px 0;
+    gap: 5px;
+
+  } 
+  .project-gallery3 {
+    padding: 5px 0;
+    gap: 5px;
+  }
+
+  .project-gallery4 {
+    padding: 0 0;
+    gap: 5px;
+  }
+
+  .project-team {
+    padding: 50px 0;
+  }
+
   .project-team__title {
     margin-bottom: 20px;
     font-size: 20px;
@@ -425,32 +453,35 @@
   }
 
   .project-team__item {
-    padding-bottom: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+   grid-gap: 27px;
   }
 
   .project-team__item_job {
-    font-size: 9px;
+    font-size: 14px;
     line-height: 9.4px;
   }
   .project5-team__item_job{
-    font-size: 7px;
+    font-size: 14px;
     line-height: 9px; 
   }
-  .project-team__item_name {
-    font-size: 9px;
+  .project-team__item_name { 
+    font-size: 14px;
     line-height: 9.4px;
   }
+  .project-switch{
+    justify-content: space-between;
+  }
   .project-switch__title {
-    padding: 10px 6.5px;
-    font-size: 10px;
-    line-height: 11px;  
+    padding: 0 15px 0 0;
+    font-size: 20px;
+    line-height: 100%; 
     max-width: 70%;  
   }
   
   .project-switch__number {
-    font-size: 30px;
-    line-height: 50.6px;
+    font-size: 35px;
+    line-height: 100%;
   }
 }
