@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "./App.scss";
 
 import Header from "./components/Header/Header";
+import Main from "./pages/Main/Main";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Contacts from "./pages/Сontacts/Contacts";
@@ -21,7 +22,7 @@ function App() {
 				<Header></Header>
 				<main>
 					<Routes>
-						<Route path="/" element={<div>Главная</div>} />
+						<Route path="/" element={<Main />} />
 						<Route path="/portfolio" element={<Portfolio />} />
 						<Route path="/about" element={<AboutMe />} />
 						<Route path="/contact" element={<Contacts />} />
