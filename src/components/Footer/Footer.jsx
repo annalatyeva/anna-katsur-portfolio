@@ -1,25 +1,24 @@
-import "./Footer.module.scss";
+import footerStyle from '../Footer/Footer.module.scss';
 
 const Footer = () => {
-    const setActiveLink = ({ isActive }) => (isActive ? " active" : "");
   return (
     <nav>
           <ul>
             <div className={footerStyle.link}>
               <li>
-                <NavLink to="/" className={setActiveLink}>
+                <a>
                   LINKEDIN
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink to="/" setActiveLink className={setActiveLink}>
+                <a>
                   TELEGRAM
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink to="/" setActiveLink className={setActiveLink}>
+                <a>
                   FACEBOOK
-                </NavLink>
+                </a>
               </li>
             </div>
           </ul>
