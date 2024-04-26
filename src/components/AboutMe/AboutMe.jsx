@@ -1,4 +1,4 @@
-import "./AboutMe.module.scss";
+import aboutmeStyle from "../AboutMe/AboutMe.module.scss";
 
 import photoItem from "../../assets/images/anna.png";
 

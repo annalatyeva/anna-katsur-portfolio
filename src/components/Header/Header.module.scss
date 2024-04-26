@@ -40,9 +40,8 @@ header *a:hover::after {
 .download {
   height: min-content;
   font-size: 24px;
-  font-family: $nonRegular;
-  font-weight: 600;
-  letter-spacing: 0.07em;
+  font-family: $nonBold;
+  letter-spacing: 0.04em;
 }
 
 .logo {
