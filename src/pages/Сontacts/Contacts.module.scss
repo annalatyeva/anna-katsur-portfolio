@@ -1,18 +1,44 @@
-@import '../../assets/styles/variables.scss';
+@import "../../assets/styles/variables.scss";
 
 .container {
-    padding: 105px;
-    margin-left: 40px;
-    min-width: 600px;
-    width: 65%;
+  padding: 110px 40px 140px;
+  min-width: 600px;
+  width: 71%;
 }
 
 .info {
-    color: $black;
-    font-size: 52px;
-    font-weight: bold;
+  color: $black;
+  font-size: 52px;
+  font-family: $nonBold;
+  letter-spacing: 0.03em;
 }
 
 .smalInfo {
-    font-size: 36px;
+  font-family: $nonRegular;
+  font-size: 36px;
+  padding-top: 20px;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    min-width: 200px;
+    width: 75%;
+  }
+
+  .info {
+    font-size: 20px;
+  }
+
+  .smalInfo {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+    padding: 75px 10px 170px;
+  }
 }

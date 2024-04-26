@@ -40,9 +40,8 @@ header *a:hover::after {
 .download {
   height: min-content;
   font-size: 24px;
-  font-family: $nonRegular;
-  font-weight: 600;
-  letter-spacing: 0.07em;
+  font-family: $nonBold;
+  letter-spacing: 0.04em;
 }
 
 .logo {
@@ -69,9 +68,7 @@ header *a:hover::after {
   }
 
   .container {
-    width: 100%;
     min-width: 200px;
-    padding: 10px;
   }
 
   .download {
@@ -85,5 +82,12 @@ header *a:hover::after {
   .links {
     padding: 5px 0 0 71px;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 10px;
   }
 }

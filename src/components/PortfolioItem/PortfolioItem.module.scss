@@ -3,6 +3,7 @@
 a {
   text-decoration: none;
 }
+
 .container {
   margin-bottom: 80px;
   .wrapper {
@@ -11,10 +12,22 @@ a {
     align-items: flex-end;
     gap: 10px;
     img,
-    video {
+    .video {
       max-width: 1005px;
       width: 100%;
       cursor: pointer;
+    }
+    .video_wrapper {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+      width: 100%;
+    }
+    .video {
+      left: 0;
+      top: 0;
+      position: absolute;
     }
     .number {
       font-family: $dmsans;
@@ -52,7 +65,7 @@ a {
   }
 }
 
-@media screen and (max-width: 862px) {
+@media screen and (max-width: 890px) {
   .container {
     margin-bottom: 40px;
     .wrapper {
