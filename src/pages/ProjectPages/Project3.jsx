@@ -206,9 +206,13 @@ const Project3 = () => {
       <div className="project-team">
         <h5 className="project-team__title">TEAM</h5>
         <div className="project4-team__container">
-          <div className="project-team__item">
-          <p>{team.map(item => (<p className="project-team__item_job" key={item.id}> {item.role}</p>))}</p>
-            <p>{team.map(item => (<p className="project-team__item_name" key={item.id}> {item.name}</p>))}</p>
+          <div className="project-team__item"> 
+          {team.map((item) => (
+            <>
+              <p className="project-team__item_job">{item.role}</p>
+              <p className="project-team__item_name">{item.name}</p>
+            </>
+                ))}
           </div>
         </div>
       </div>

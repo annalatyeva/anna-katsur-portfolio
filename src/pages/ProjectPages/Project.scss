@@ -139,6 +139,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+
 .project-team {
   padding: 80px 40px;
 }
@@ -161,6 +162,7 @@
   padding-bottom: 5px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 100px;
 }
 
 .project-team__item_job {
@@ -170,13 +172,7 @@
   font-weight: 500;
   line-height: 26.4px;
 }
-.project5-team__item_job{
-  padding-bottom: 5px;
-  color: $gray;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 26.4px; 
-}
+
 .project-team__item_name {
   padding-bottom: 5px;
   font-size: 24px;
@@ -264,10 +260,7 @@
     font-size: 14px;
     line-height: 16.4px;
   }
-  .project5-team__item_job{
-    font-size: 12px;
-    line-height: 16.4px; 
-  }
+
   .project-team__item_name {
     font-size: 14px;
     line-height: 16.4px;
@@ -338,10 +331,7 @@
     font-size: 9px;
     line-height: 9.4px;
   }
-  .project5-team__item_job{
-    font-size: 7px;
-    line-height: 7.4px; 
-  }
+
   .project-team__item_name {
     font-size: 9px;
     line-height: 9.4px;
@@ -449,13 +439,12 @@
   }
   .project-team__container {
     column-count: 1;
-  
   }
 
   .project-team__item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   grid-gap: 27px;
+ 
   }
 
   .project-team__item_job {
@@ -463,11 +452,7 @@
     font-size: 14px;
     line-height: 100%; 
   }
-  .project5-team__item_job{
-    padding-bottom: 10px;
-    font-size: 13px;
-    line-height: 100%; 
-  }
+
   .project-team__item_name {
     padding-bottom: 10px; 
     font-size: 14px;
