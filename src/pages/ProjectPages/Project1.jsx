@@ -7,6 +7,7 @@ import galleryItem3 from "../../assets/images/project-pic3.jpg";
 import galleryItem4 from "../../assets/images/project-pic4.jpg";
 import galleryItem5 from "../../assets/images/project-pic5.jpg";
 import galleryItem6 from "../../assets/images/project-pic6.jpg";
+import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 
 const team = [
@@ -223,6 +224,7 @@ const Project = (props) =>
         <p className="project-switch__number">/ 02</p>       
       </div>
       </Link> 
+      <Footer/>
     </div>
   );
 };
