@@ -7,6 +7,7 @@ import galleryItem3 from "../../assets/images/project-pic3.jpg";
 import galleryItem4 from "../../assets/images/project-pic4.jpg";
 import galleryItem5 from "../../assets/images/project-pic5.jpg";
 import galleryItem6 from "../../assets/images/project-pic6.jpg";
+import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 
 const team = [
@@ -205,10 +206,13 @@ const Project = (props) =>
       <div className="project-team">
         <h5 className="project-team__title">TEAM</h5>
         <div className="project-team__container">
-          <div className="project-team__item">
-          
-            <p>{team.map(item => (<p className="project-team__item_job" key={item.id}> {item.role}</p>))}</p>
-            <p>{team.map(item => (<p className="project-team__item_name" key={item.id}> {item.name}</p>))}</p>
+          <div className="project-team__item">          
+          {team.map((item) => (
+            <>
+              <p className="project-team__item_job">{item.role}</p>
+              <p className="project-team__item_name">{item.name}</p>
+            </>
+                ))}
           </div>
         </div>
       </div>
@@ -220,6 +224,7 @@ const Project = (props) =>
         <p className="project-switch__number">/ 02</p>       
       </div>
       </Link> 
+      <Footer/>
     </div>
   );
 };

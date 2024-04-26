@@ -6,19 +6,19 @@ const Footer = () => {
           <ul>
             <div className={footerStyle.link}>
               <li>
-                <a>
+                <button>
                   LINKEDIN
-                </a>
+                </button>
               </li>
               <li>
-                <a>
+                <button>
                   TELEGRAM
-                </a>
+                </button>
               </li>
               <li>
-                <a>
+                <button>
                   FACEBOOK
-                </a>
+                </button>
               </li>
             </div>
           </ul>
