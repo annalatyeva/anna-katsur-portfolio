@@ -1,0 +1,36 @@
+@import "../../assets/styles/variables.scss";
+
+
+.main {
+    margin: 10% 0 0 10%;
+    display: flex;
+    align-items: center;
+
+    .main_images {
+        flex: none;
+    
+    .main_images-item {
+        width: 445px;
+        height: 380px;
+        object-fit: contain;
+        transition: transform 2s;
+    }
+
+    &.fade {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    }
+
+
+    .main_title {
+        font-family: $nonBold;
+        font-size: 64px;
+        transform: translate(-40px, 20px);
+    }
+}
+
+
