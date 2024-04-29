@@ -1,0 +1,29 @@
+@import "../../assets/styles/variables.scss";
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.linkedin {
+    color: $black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.telegram {
+    color: $black;
+    text-decoration: none;
+    margin-left: 1030px;
+}
+
+.facebook {
+    color: $black;
+    text-decoration: none;
+    margin-left: 200px;
+}
