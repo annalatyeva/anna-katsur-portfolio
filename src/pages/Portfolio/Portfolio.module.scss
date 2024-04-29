@@ -21,7 +21,6 @@ body {
       font-family: $nonBold;
       font-size: 96px;
       color: $black;
-      line-height: 96px;
     }
     .active {
       color: $black;
@@ -39,7 +38,6 @@ body {
       }
       span {
         font-size: 76px;
-        line-height: 76px;
       }
     }
   }
@@ -56,7 +54,6 @@ body {
       }
       span {
         font-size: 46px;
-        line-height: 46px;
       }
     }
   }
@@ -65,16 +62,15 @@ body {
 @media screen and (max-width: 506px) {
   .portfolio {
     margin: 40px auto 0;
-    padding: 0px 20px;
+    padding: 0px 10px;
     .title {
       gap: 15px;
       margin-bottom: 20px;
       h2 {
-        font-size: 28px;
+        font-size: 32px;
       }
       span {
-        font-size: 28px;
-        line-height: 28px;
+        font-size: 32px;
       }
     }
   }
