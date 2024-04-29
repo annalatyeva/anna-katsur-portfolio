@@ -1,22 +1,25 @@
 @import "../../assets/styles/variables.scss";
 
-header {
+.header {
   position: sticky;
   top: 0;
   z-index: 10;
   width: 100%;
   margin: auto;
   background-color: $beige;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
 }
 
-header * {
+.header * {
   width: max-content;
   color: $black;
   text-decoration: none;
   list-style-type: none;
 }
 
-header *a::after {
+.header *a::after {
   display: block;
   content: "";
   width: 0%;
@@ -25,8 +28,31 @@ header *a::after {
   transition: width 0.4s ease-in-out;
 }
 
-header *a:hover::after {
+.header *a:hover::after {
   width: 100%;
+}
+
+header *.active::after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: $bordo;
+}
+
+@media (max-width: 1024px) {
+  header *.active::after {
+    height: 1px;
+  }
+}
+
+header {
+  &.hide {
+    top: -15.5em;
+  }
+  &.show {
+    top: 0;
+  }
 }
 
 .container {
