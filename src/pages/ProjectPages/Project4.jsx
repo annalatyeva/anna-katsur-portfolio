@@ -60,10 +60,10 @@ const Project4 = () => {
 					<p className="project4-article__text">The welcome-pack gives new employees their first experience of customisation, offering choices of elements "To Attach To", "To Hook With", and "Other Options".</p>
 				</section>
 			</div>
-			<div className="project-gallery4">
+			<div className="project-gallery5">
 				<img className="project-gallery__img item_vertical" src={galleryItem3} alt="" width="100%" height="100%" />
 				<img className="project-gallery__img item_vertical" src={galleryItem4} alt="" width="100%" height="100%" />
-				<img className="project-gallery__img item_horizontal" src={galleryItem5} alt="" width="100%" height="100%" />
+				<img className="project-gallery__img item_horizontal2" src={galleryItem5} alt="" width="100%" height="100%" />
 			</div>
 			<div className="project-article">
 				<section className="project4-article__item1">
@@ -71,10 +71,10 @@ const Project4 = () => {
 					<p className="project4-article__text">The bag, part of the welcome-pack, is designed to be functional and stylish. It is available in three colour schemes and includes a small detachable pouch for greater versatility.</p>
 				</section>
 			</div>
-			<div className="project-gallery4">
+			<div className="project-gallery5">
 				<img className="project-gallery__img item_vertical" src={galleryItem6} alt="" width="100%" height="100%" />
 				<img className="project-gallery__img item_vertical" src={galleryItem7} alt="" width="100%" height="100%" />
-				<img className="project-gallery__img  item_horizontal" src={galleryItem8} alt="" width="100%" height="100%" />
+				<img className="project-gallery__img item_horizontal2" src={galleryItem8} alt="" width="100%" height="100%" />
 			</div>
 			<div className="project-article">
 				<section className="project4-article__item1">
@@ -84,12 +84,12 @@ const Project4 = () => {
 					<p className="project4-article__text">First impressions are crucial. Yandex's welcome-pack is designed to reflect the corporate values and culture of the company, as well as to provide new employees with the necessary tools for successful integration into the team from day one.</p>
 				</section>
 			</div>
-			<div className="project-gallery">
+			<div className="project-gallery5">
 				<img className="project-gallery__img" src={galleryItem9} alt="" width="100%" height="100%" />
 				<img className="project-gallery__img" src={galleryItem10} alt="" width="100%" height="100%" />
 				<img className="project-gallery__img" src={galleryItem11} alt="" width="100%" height="100%" /> <img className="project-gallery__img" src={galleryItem12} alt="" width="100%" height="100%" />
-				<img className="project-gallery__img item_horizontal" src={galleryItem13} alt="" width="100%" height="100%" />
-				<img className="project-gallery__img item_horizontal" src={galleryItem14} alt="" width="100%" height="100%" />
+				<img className="project-gallery__img item_horizontal2" src={galleryItem13} alt="" width="100%" height="100%" />
+				<img className="project-gallery__img item_horizontal2" src={galleryItem14} alt="" width="100%" height="100%" />
 			</div>
 			<div className="project-team">
 				<h5 className="project-team__title">TEAM</h5>
