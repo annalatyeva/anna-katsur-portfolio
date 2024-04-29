@@ -1,5 +1,6 @@
 import "./Project.scss";
 import { Link } from "react-router-dom";
+import {useEffect} from "react";
 // import ReactPlayer from "react-player";
 import galleryItem from "../../assets/images/project6-pic1.png";
 import galleryItem2 from "../../assets/images/project6-pic2.png";
@@ -12,6 +13,9 @@ import galleryItem8 from "../../assets/images/project6-pic8.png";
 import galleryItem9 from "../../assets/images/project6-pic9.png";
 
 const Project6 = () => {
+  useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
   return (
     <div className="project-container">
       <div className="project-header">
