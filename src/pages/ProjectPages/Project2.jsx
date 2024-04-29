@@ -33,7 +33,7 @@ const Project2 = () => {
 				<h2 className="project2-header__title">CONCEPT OF THE EVENT AND CREATIVE DIRECTION FOR SEASONS BRAND IDENTITY</h2>
 				<p className="project-header__number">/ 02</p>
 			</div>
-			<div className="project-gallery">
+			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal">
 					<ReactPlayer url="https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
 				</div>
@@ -64,7 +64,7 @@ const Project2 = () => {
 			</div>
 			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal">
-					<ReactPlayer url="https://player.vimeo.com/video/624512767?h=98467760ff&badge=0&autopause=0&quality=1080p&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/624512767?h=98467760ff&badge=0&autopause=0&quality=1080p&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper item_horizontal">
 					<ReactPlayer url="https://player.vimeo.com/video/624616937?h=6497567e37&badge=0&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} width="100%" height="100%" />

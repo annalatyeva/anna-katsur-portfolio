@@ -102,7 +102,7 @@ const Project7 = () => {
 				<img className="project-gallery__img item_vertical" src={galleryItem14} alt="" width="100%" height="100%" />
 				<img className="project-gallery__img item_vertical" src={galleryItem16} alt="" width="100%" height="100%" />
 				<img className="project-gallery__img item_vertical" src={galleryItem15} alt="" width="100%" height="100%" />
-				<img className="project-gallery__img item_horizontal" src={galleryItem2} alt="" width="100%" height="100%" style={{padding: "0 0 100px 0"}} />
+				<img className="project-gallery__img item_horizontal3" src={galleryItem2} alt="" width="100%" height="100%" />
 			</div>
 			<Link to="/project01" className="project-switch__link">
 				<div className="project-switch">

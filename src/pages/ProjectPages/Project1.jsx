@@ -26,8 +26,8 @@ const team = [
 	{role: "Content Director, Writing", name: "Vasily Kolesnik"},
 	{role: "Producer", name: "Ekaterina Shcherbakova"},
 	{role: "Project Manager", name: "Anna Eremina"},
+	{role: "Project Manager", name: "Anna Kuzyutina"},	
 	{role: "Project Manager", name: "Anna Shayakhmetova"},
-	{role: "Project Manager", name: "Anna Kuzyutina"},
 ];
 
 const Project = (props) => {
@@ -40,14 +40,14 @@ const Project = (props) => {
 				<h2 className="project-header__title">CREATING A BRAND AND VISUAL IDENTITY FOR THE IT CONFERENCE YATALKS</h2>
 				<p className="project-header__number">/ 01</p>
 			</div>
-			<div className="project-gallery">
+			<div className="project-gallery4">
 				<div className="project-gallery__wrapper item_horizontal">
 					<ReactPlayer url="https://player.vimeo.com/video/765743651?h=25a2d79aa1&badge=0&background=1&quality=2160&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
 				</div>
-				<div className="project-gallery__wrapper item_vertical">
+				<div className="project-gallery__wrapper">
 					<img className="project-gallery__item" src={galleryItem} alt="" width="100%" height="100%" />
 				</div>
-				<div className="project-gallery__wrapper item_vertical">
+				<div className="project-gallery__wrapper">
 					<ReactPlayer url="https://player.vimeo.com/video/769909942?h=45957d639e&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
 				</div>
 			</div>
@@ -84,7 +84,7 @@ const Project = (props) => {
 					<img className="project-gallery__item" src={galleryItem4} alt="" width="100%" height="100%" />
 				</div>
 			</div>
-			<div className="project-gallery">
+			<div className="project-gallery4">
 				<div className="project-gallery__wrapper item_horizontal">
 					<img className="project-gallery__item" src={galleryItem2} alt="" width="100%" height="100%" />
 				</div>
