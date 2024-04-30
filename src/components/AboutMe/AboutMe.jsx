@@ -17,8 +17,8 @@ const AboutMe = () => {
 			<div className={aboutmeStyle.mainsection}>
 				<div className={aboutmeStyle.wrapper}>
 					<div className={aboutmeStyle.text}>
-						<p>With over a decade of experience, I specialize in elevating brand presence and engagement in the IT and fintech sectors. My professional journey includes leading over 50 successful advertising campaigns and spearheading significant redesign and rebranding initiatives for major corporations.</p>
-						<p>Currently, I lead the Creative Studio and Employer's Internal Brand Department at a major technology firm, where I have developed over 30 creative concepts and five comprehensive brand strategies. These efforts have not only strengthened the emotional connection between the brand and its audience but have also boosted brand recognition impressively.</p>
+						<p className={aboutmeStyle.textitem}>With over a decade of experience, I specialize in elevating brand presence and engagement in the IT and fintech sectors. My professional journey includes leading over 50 successful advertising campaigns and spearheading significant redesign and rebranding initiatives for major corporations.</p>
+						<p className={aboutmeStyle.textitem}>Currently, I lead the Creative Studio and Employer's Internal Brand Department at a major technology firm, where I have developed over 30 creative concepts and five comprehensive brand strategies. These efforts have not only strengthened the emotional connection between the brand and its audience but have also boosted brand recognition impressively.</p>
 					</div>
 					<div className={aboutmeStyle.image}>
 						<img src={photoItem} alt="Anna" />
@@ -29,8 +29,8 @@ const AboutMe = () => {
 					<p className={aboutmeStyle.paragraph}> I AM ALSO PASSIONATE ABOUT EDUCATION, SERVING AS A LECTURER AT THE BRITISH HIGHER SCHOOL OF ART AND DESIGN.</p>
 				</div>
 				<div className={aboutmeStyle.text}>
-					<p>There, I have designed and led a three-month intensive module focusing on research, design, and branding, among other subjects, preparing the next generation of designers and brand strategists.</p>
-					<p>Holding a Global Talent visa in the UK for visual arts, my work has been recognized with several prestigious awards, including a recent Gold at the Futuregosummit for 'New artist' and a Silver at the European Design Awards for the SB Type system.</p>
+					<p className={aboutmeStyle.textitem}>There, I have designed and led a three-month intensive module focusing on research, design, and branding, among other subjects, preparing the next generation of designers and brand strategists.</p>
+					<p className={aboutmeStyle.textitem}>Holding a Global Talent visa in the UK for visual arts, my work has been recognized with several prestigious awards, including a recent Gold at the Futuregosummit for 'New artist' and a Silver at the European Design Awards for the SB Type system.</p>
 				</div>
 			</div>
 			<div className={aboutmeStyle.text}>
