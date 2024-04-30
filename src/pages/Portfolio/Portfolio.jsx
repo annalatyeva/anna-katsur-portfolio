@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import {useState} from "react";
+import {Link} from "react-router-dom";
+import {useEffect} from "react";
 import Footer from "../../components/Footer/Footer";
 import PortfolioItem from "../../components/PortfolioItem/PortfolioItem";
 import yatalks from "./../../assets/video/yatalks.mp4";
@@ -61,57 +61,45 @@ const dataDesign = [
       "ART DIRECTION FOR THE REBRANDING OF THE FIN-TECH PRODUCT ECOSYSTEM",
     format: "image",
   },
+
 ];
 
 const Portfolio = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  const [activeTitle, setActiveTitle] = useState(true);
-  const handleTitle = () => {
-    setActiveTitle(!activeTitle);
-  };
-  return (
-    <div>
-      <div className={style.portfolio}>
-        <div className={style.title}>
-          <h2 className={activeTitle ? style.active : ""} onClick={handleTitle}>
-            DESIGN
-          </h2>
-          <span>/</span>
-          <h2 className={activeTitle ? "" : style.active} onClick={handleTitle}>
-            BRAND
-          </h2>
-        </div>
-        <div>
-          {activeTitle
-            ? dataBrand.map((item) => (
-                <Link to={`/project${item.number}`}>
-                  <PortfolioItem
-                    link={item.link}
-                    number={item.number}
-                    description={item.description}
-                    format={item.format}
-                    key={item.number}
-                  />
-                </Link>
-              ))
-            : dataDesign.map((item) => (
-                <Link to={`/project${item.number}`}>
-                  <PortfolioItem
-                    link={item.link}
-                    number={item.number}
-                    description={item.description}
-                    format={item.format}
-                    key={item.number}
-                  />
-                </Link>
-              ))}
-        </div>
-      </div>
-      <Footer />
-    </div>
-  );
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+	const [activeTitle, setActiveTitle] = useState(true);
+	const handleTitle = () => {
+		setActiveTitle(!activeTitle);
+	};
+	return (
+		<div>
+			<div className={style.portfolio}>
+				<div className={style.title}>
+					<h2 className={activeTitle ? style.active : ""} onClick={handleTitle}>
+						DESIGN
+					</h2>
+					<span>/</span>
+					<h2 className={activeTitle ? "" : style.active} onClick={handleTitle}>
+						BRAND
+					</h2>
+				</div>
+				<div>
+					{activeTitle
+						? dataBrand.map((item) => (
+								<Link to={`/project${item.number}`}>
+									<PortfolioItem link={item.link} number={item.number} description={item.description} format={item.format} key={item.number} />
+								</Link>
+						  ))
+						: dataDesign.map((item) => (
+								<Link to={`/project${item.number}`}>
+									<PortfolioItem link={item.link} number={item.number} description={item.description} format={item.format} key={item.number} />
+								</Link>
+						  ))}
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Portfolio;

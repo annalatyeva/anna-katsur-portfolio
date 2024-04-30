@@ -26,7 +26,7 @@ const team = [
 	{role: "Content Director, Writing", name: "Vasily Kolesnik"},
 	{role: "Producer", name: "Ekaterina Shcherbakova"},
 	{role: "Project Manager", name: "Anna Eremina"},
-	{role: "Project Manager", name: "Anna Kuzyutina"},	
+	{role: "Project Manager", name: "Anna Kuzyutina"},
 	{role: "Project Manager", name: "Anna Shayakhmetova"},
 ];
 
@@ -114,7 +114,6 @@ const Project = (props) => {
 					<p className="project-switch__number">/ 02</p>
 				</div>
 			</Link>
-			<Footer />
 		</div>
 	);
 };
