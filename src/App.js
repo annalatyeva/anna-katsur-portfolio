@@ -20,7 +20,7 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 function App() {
 	let pathname = window.location.pathname;
 	const pathList = ["/", "/portfolio", "/about", "/contact", "/project01", "/project02", "/project03", "/project04", "/project05", "/project06", "/project07"];
-	const pathList2 = pathList;
+	const pathList2 = pathList.slice(1);
 	return (
 		<Router>
 			<div className="App">
