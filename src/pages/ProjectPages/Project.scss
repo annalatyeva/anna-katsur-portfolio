@@ -119,7 +119,7 @@
   padding: 80px 40px;
 
   .project-article__item1 {
-    font-size: 36px;
+    font-size: 36px;           
     font-weight: 500;
     line-height: 40px;
     text-align: left;
@@ -242,12 +242,21 @@
 }
 
 //////////////////////////////////////////////////adaptive styles//////////////////////////////////////////////////
-@media screen and (max-width: 1600px) and (min-width: 990px){
+@media screen and (max-width: 1400px) and (min-width: 990px){
   .project-header {
     h2 {
-      font-size: 36px;
-      line-height: 50.4px;
+      font-size: 50px;
+      line-height: 50px;
     }
+    .project-header__title{
+      max-width: 65%;
+      } 
+    .project2-header__title{
+      max-width: 80%;
+      }
+    .project5-header__title{
+      max-width: 70%;
+      }
     .project-header__number {
       font-size: 76px;     
     }
@@ -309,6 +318,9 @@
 }
 
 @media screen and (max-width: 989px) and (min-width: 450px){
+  .project-container {
+    padding: 60px 20px 70px;
+  }
   .project-header {
     .project-header__title{
       max-width: 70%;
@@ -320,8 +332,8 @@
       max-width: 70%;
       }
     h2 {
-      font-size: 20px;
-      line-height: 25.4px;
+      font-size: 32px;
+      line-height: 35px;
     }
     .project-header__number {
       font-size: 55px;  
@@ -330,12 +342,12 @@
   .project-article {  
     padding: 20px 10px;
     .project-article__item1 {
-      font-size: 14px;
+      font-size: 20px;
       line-height: 22.2px;
     }
   
     .project4-article__item1 {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 21.25px;
       padding-top: 10px;
       .project4-article__text   {
@@ -344,40 +356,49 @@
           }
   
   .project-article__title {
-    font-size: 18px;
+    font-size: 24px;
     padding-top: 10px;
   }
   .project-article__subtitle{
-    padding-top: 10px;
+    padding-top: 18px;
   }
     .project-article__item2 {
-      font-size: 12px;
-      line-height: 17.25px;
+      font-size: 18px;
+      line-height: 18px;
       padding-top: 10px;
       p {
         padding: 5px 0;
       }
       }
   }
+
+  .project-team {
+    padding: 40px 0;
+  }
+
+  .project-team__item {
+    column-gap: 40px;
+  }
+
   .project-team__item_job {
-    font-size: 9px;
-    line-height: 9.4px;
+    font-size: 14px;
+    line-height: 14px;
   }
 
   .project-team__item_name {
-    font-size: 9px;
-    line-height: 9.4px;
+    font-size: 14px;
+    line-height: 14px;
   }
   .project-switch__title {
     padding: 20px 6.5px;
-    font-size: 18px;
-    line-height: 16px;  
-    max-width: 70%;  
+    font-size: 26px;
+    line-height: 27px;  
+    max-width: 55%;  
   }
   
   .project-switch__number {
-    font-size: 49px;
-    line-height: 66.6px;
+    font-size: 48px;
+    line-height: 48px;
   }
 }
 
