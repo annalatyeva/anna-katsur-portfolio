@@ -1,18 +1,18 @@
 import style from "../PortfolioItem/PortfolioItem.module.scss";
 
-
 const PortfolioItem = ({ link, number, description, format }) => {
   return (
     <div className={style.container}>
       <div className={style.wrapper}>
-        {format === "image" ? (
-          <img src={link} alt={`project${number}`} />
-        ) : (
-          <video autoPlay loop>
-            <source src={link} type="video/mp4" />
-          </video>
-        )}
-
+        <div className={style.img_wrapper}>
+          {format === "image" ? (
+            <img src={link} alt={`project${number}`} />
+          ) : (
+            <video autoPlay loop>
+              <source src={link} type="video/mp4" />
+            </video>
+          )}
+        </div>
         <span className={style.number}>/</span>
         <p className={style.number}>{number}</p>
       </div>
