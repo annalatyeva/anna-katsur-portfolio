@@ -49,7 +49,7 @@ const Project7 = () => {
 			</div>
 			<div className="project-article">
 				<section className="project4-article__item1">
-					<h6 className="project-article__title">LogoColours usage</h6>
+					<h6 className="project-article__title">Logo Colours usage</h6>
 					<p className="project-article__subtitle">SBER Timeline Gradient </p>
 					<p className="project4-article__text">It is made up of five colours: main SBER Heritage Green, SBER Spring, Sunshine, Arctic, Deep Sky.</p>
 					<p className="project-article__subtitle">SBER Heritage Green</p>

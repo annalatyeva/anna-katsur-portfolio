@@ -17,10 +17,10 @@
     max-width: 50%;
   }
   .project2-header__title {
-    max-width: 70%;
+    max-width: 80%;
   }
   .project5-header__title {
-    max-width: 60%;
+    max-width: 70%;
   }
   h2 {
     font-size: 64px;
@@ -197,7 +197,7 @@
   padding-bottom: 5px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 100px;
+  column-gap: 75px;
 }
 
 .project-team__item_job {
@@ -399,6 +399,7 @@
   }
 
   .project-team__item {
+    align-items: center;
     column-gap: 35px;
   }
 
@@ -536,6 +537,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
+    align-items: center;
   }
 
   .project-team__item_job {
