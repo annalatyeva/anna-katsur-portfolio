@@ -1,24 +1,32 @@
+import React from "react";
+import { useLocation } from "react-router-dom";
 import footerStyle from '../Footer/Footer.module.scss';
 
 const Footer = () => {
+  const location = useLocation();
+
+  if (location.pathname === "/") {
+    return null;
+  }
+
   return (
     <nav>
           <ul>
-            <div className={footerStyle.link}>
+            <div className={footerStyle.links}>
               <li>
-                <button>
+              <a href="https://www.linkedin.com/in/anna-katsur-a2084480" className={footerStyle.linkedin}>
                   LINKEDIN
-                </button>
+                  </a>
               </li>
               <li>
-                <button>
+                <a href="https://t.me/Kacur" className={footerStyle.telegram}>
                   TELEGRAM
-                </button>
+                  </a>
               </li>
               <li>
-                <button>
+                <a href="https://www.facebook.com/aava.katsur" className={footerStyle.facebook}>
                   FACEBOOK
-                </button>
+                  </a>
               </li>
             </div>
           </ul>

@@ -12,22 +12,10 @@ a {
     align-items: flex-end;
     gap: 10px;
     img,
-    .video {
+    video {
       max-width: 1005px;
       width: 100%;
       cursor: pointer;
-    }
-    .video_wrapper {
-      overflow: hidden;
-      padding-bottom: 48%;
-      position: relative;
-      height: 0;
-      width: 100%;
-    }
-    .video {
-      left: 0;
-      top: 0;
-      position: absolute;
     }
     .number {
       font-family: $dmsans;
@@ -37,7 +25,6 @@ a {
       color: $black;
     }
   }
-
   .description {
     margin-top: 20px;
     max-width: 730px;
@@ -73,9 +60,6 @@ a {
       .number {
         font-size: 46px;
         line-height: 42px;
-      }
-      .video_wrapper {
-        padding-bottom: 47%;
       }
     }
     .description {
