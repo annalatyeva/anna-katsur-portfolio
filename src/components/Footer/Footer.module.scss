@@ -1,29 +1,60 @@
 @import "../../assets/styles/variables.scss";
 
-ul {
+.wrapper {
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: $dmsans;
+  font-size: 24px;
+  font-weight: 500;
+  transition: 0.3s all;
+
+  ul {
     list-style-type: none;
+
+    a {
+      &:hover {
+        color: $gray;
+      }
+    }
+  }
 }
 
-.links {
-    display: flex;
-    font-size: 20px;
-    margin-bottom: 20px;
+.links_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.rightLinks {
+  margin-left: auto;
 }
 
 .linkedin {
-    color: $black;
-    text-decoration: none;
-    margin-left: 30px;
+  color: $black;
+  text-decoration: none;
 }
 
 .telegram {
-    color: $black;
-    text-decoration: none;
-    margin-left: 930px;
+  color: $black;
+  text-decoration: none;
+  //   padding-left: 264px;
 }
 
 .facebook {
-    color: $black;
-    text-decoration: none;
-    margin-left: 200px;
+  color: $black;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    font-weight: 600;
+    font-size: 14px;
+
+    .rightLinks {
+      margin-left: 0;
+    }
+    .links_list {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }

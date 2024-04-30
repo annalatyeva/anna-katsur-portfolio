@@ -24,7 +24,7 @@ const Main = () => {
     }, 400);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="main-container">
