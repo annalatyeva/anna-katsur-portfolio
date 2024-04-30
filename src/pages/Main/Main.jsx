@@ -21,24 +21,37 @@ const Main = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 800);
+    }, 400);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="main">
-      <div className="main_images">
-        <img
-          src={images[currentImageIndex % images.length]}
-          alt={`img${(currentImageIndex % images.length) + 1}`}
-          className="main_images-item fade"
-        />
+    <div className="main-container">
+      <div className="main">
+        <div className="main_images">
+          <img
+            src={images[currentImageIndex % images.length]}
+            alt={`img${(currentImageIndex % images.length) + 1}`}
+            className="main_images-item fade"
+          />
+        </div>
+        <div className="main_title">
+          <p>CREATIVE DIRECTOR AND ART DIRECTOR WITH 11 YEARS EXPERIENCE</p>
+        </div>
       </div>
-      <div className="main_title">
-        <p>CREATIVE DIRECTOR</p>
-        <p>AND ART DIRECTOR WITH</p>
-        <p>11 YEARS EXPERIENCE</p>
+
+      <div className="main_mobile">
+        <div className="main_title_mobile">
+          <p>CREATIVE DIRECTOR AND ART DIRECTOR WITH 11 YEARS EXPERIENCE</p>
+        </div>
+        <div className="main-images_mobile">
+          <img
+            src={images[currentImageIndex % images.length]}
+            alt={`img${(currentImageIndex % images.length) + 1}`}
+            className="main_images-item_mobile"
+          />
+        </div>
       </div>
     </div>
   );
