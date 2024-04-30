@@ -111,7 +111,7 @@ p{
 }
 @media screen and (max-width: 899px) and (min-width: 200px) {
     .container {
-        padding: 30px 50px 50px;
+        padding: 20px 30px 50px;
     }
     .header{
         .subtitle{
@@ -122,6 +122,10 @@ p{
             font-size: 20px;
         }
     }
+    .mainsection{
+        gap: 20px;
+    }
+
     .wrapper{
         grid-template-columns: 1fr;
         align-items: center;
@@ -134,13 +138,15 @@ p{
         font-size: 14px;
         line-height: 14px;
     }
+    .media {
+        margin-top: 20px;
+    }
+
     .medianame {
-        font-size: 56px;
+        font-size: 48px;
     }
     
     .link {        
         font-size: 20px;
       }
 }
-
-// @media screen and (max-width: 550px) and (min-width: 200px) {}
