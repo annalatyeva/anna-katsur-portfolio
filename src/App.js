@@ -20,7 +20,7 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 function App() {
 	let pathname = window.location.pathname;
 	const pathList = ["/", "/portfolio", "/about", "/contact", "/project01", "/project02", "/project03", "/project04", "/project05", "/project06", "/project07"];
-
+	const pathList2 = pathList;
 	return (
 		<Router>
 			<div className="App">
@@ -41,7 +41,7 @@ function App() {
 						<Route path="/*" element={<ErrorPage />} />
 					</Routes>
 				</main>
-				{pathList.includes(pathname) ? pathname !== "/" ? <Footer></Footer> : <></> : <></>}
+				{pathList2.includes(pathname) ? <Footer></Footer> : <></>}
 			</div>
 		</Router>
 	);
