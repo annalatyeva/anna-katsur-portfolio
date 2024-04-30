@@ -13,7 +13,7 @@ const PortfolioItem = ({ link, number, description, format }) => {
             </video>
           )}
         </div>
-        <span className={style.number}>/</span>
+        <p className={style.number}>/</p>
         <p className={style.number}>{number}</p>
       </div>
       <p className={style.description}>{description}</p>

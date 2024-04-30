@@ -37,6 +37,9 @@ a {
     color: $black;
     cursor: pointer;
   }
+  p {
+    padding: 0 0;
+  }
 }
 
 @media screen and (max-width: 1110px) {
