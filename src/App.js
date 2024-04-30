@@ -17,6 +17,7 @@ import Project7 from "./pages/ProjectPages/Project7";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+	let pathname = window.location.pathname;
 	return (
 		<Router>
 			<div className="App">
@@ -37,8 +38,8 @@ function App() {
 						<Route path="/project07" element={<Project7 />} />
 					</Routes>
 				</main>
-				<Footer />
-				</div>
+				{pathname != "/" ? <Footer /> : <></>}
+			</div>
 		</Router>
 	);
 }
