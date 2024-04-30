@@ -1,7 +1,7 @@
 @import "../../assets/styles/variables.scss";
 
 .main {
-  margin: 10% 0 0 15%;
+  margin: 5% 0 0 13%;
   display: flex;
   align-items: center;
 
@@ -139,36 +139,16 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-  .main {
+  .main_mobile {
     display: none;
   }
 
-  .main_mobile {
-    display: block;
-    margin: 0 auto;
-    padding-top: 100px;
-
-    .main_title_mobile {
+  .main {
+    .main_title {
       max-width: 700px;
       font-size: 52px;
-      font-family: $nonBold;
       margin: 0 auto;
       padding: 0;
-    }
-
-    .main-images_mobile {
-      max-width: 400px;
-      transition: transform 2s;
-      margin: 0 auto;
-
-      .main_images-item_mobile {
-        width: 400px;
-        height: auto;
-        transition: transform 2s;
-        transform: translateY(-35px);
-        position: relative;
-        z-index: -100;
-      }
     }
   }
 }

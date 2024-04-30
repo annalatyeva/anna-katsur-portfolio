@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.scss";
 
@@ -18,33 +18,53 @@ import Footer from "./components/Footer/Footer";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
 function App() {
-	let pathname = window.location.pathname;
-	const pathList = ["/", "/portfolio", "/about", "/contact", "/project01", "/project02", "/project03", "/project04", "/project05", "/project06", "/project07"];
+  let pathname = window.location.pathname;
+  const pathList = [
+    "/",
+    "/portfolio",
+    "/about",
+    "/contact",
+    "/project01",
+    "/project02",
+    "/project03",
+    "/project04",
+    "/project05",
+    "/project06",
+    "/project07",
+  ];
 
-	return (
-		<Router>
-			<div className="App">
-				{pathList.includes(pathname) ? <Header></Header> : <></>}
-				<main>
-					<Routes>
-						<Route path="/" element={<Main />} />
-						<Route path="/portfolio" element={<Portfolio />} />
-						<Route path="/about" element={<AboutMe />} />
-						<Route path="/contact" element={<Contacts />} />
-						<Route path="/project01" element={<Project1 />} />
-						<Route path="/project02" element={<Project2 />} />
-						<Route path="/project03" element={<Project3 />} />
-						<Route path="/project04" element={<Project4 />} />
-						<Route path="/project05" element={<Project5 />} />
-						<Route path="/project06" element={<Project6 />} />
-						<Route path="/project07" element={<Project7 />} />
-						<Route path="/*" element={<ErrorPage />} />
-					</Routes>
-				</main>
-				{pathList.includes(pathname) ? pathname !== "/" ? <Footer></Footer> : <></> : <></>}
-			</div>
-		</Router>
-	);
+  return (
+    <Router>
+      <div className="App">
+        {pathList.includes(pathname) ? <Header></Header> : <></>}
+        <main>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<AboutMe />} />
+            <Route path="/contact" element={<Contacts />} />
+            <Route path="/project01" element={<Project1 />} />
+            <Route path="/project02" element={<Project2 />} />
+            <Route path="/project03" element={<Project3 />} />
+            <Route path="/project04" element={<Project4 />} />
+            <Route path="/project05" element={<Project5 />} />
+            <Route path="/project06" element={<Project6 />} />
+            <Route path="/project07" element={<Project7 />} />
+            <Route path="/*" element={<ErrorPage />} />
+          </Routes>
+        </main>
+        {pathList.includes(pathname) ? (
+          pathname !== "/" ? (
+            <Footer></Footer>
+          ) : (
+            <></>
+          )
+        ) : (
+          <></>
+        )}
+      </div>
+    </Router>
+  );
 }
 
 export default App;
