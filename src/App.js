@@ -18,8 +18,20 @@ import Footer from "./components/Footer/Footer";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
 function App() {
-	const pathList = ["/", "/portfolio", "/about", "/contact", "/project01", "/project02", "/project03", "/project04", "/project05", "/project06", "/project07"];
-
+  let pathname = window.location.pathname;
+  const pathList = [
+    "/",
+    "/portfolio",
+    "/about",
+    "/contact",
+    "/project01",
+    "/project02",
+    "/project03",
+    "/project04",
+    "/project05",
+    "/project06",
+    "/project07",
+  ];
 	return (
 		<Router>
 			<InnerApp pathList={pathList} />

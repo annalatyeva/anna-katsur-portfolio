@@ -1,6 +1,6 @@
 import "./Project.scss";
-import {Link} from "react-router-dom";
-import {useEffect} from "react";
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 import galleryItem from "../../assets/images/project7-pic1.png";
 import galleryItem2 from "../../assets/images/project7-pic2.png";
@@ -20,26 +20,47 @@ import galleryItem15 from "../../assets/images/project7-pic15.png";
 import galleryItem16 from "../../assets/images/project7-pic16.png";
 
 const Project7 = () => {
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
-	return (
-		<div className="project-container">
-			<div className="project-header">
-				<h2 className="project2-header__title">ART DIRECTION FOR THE REBRANDING OF THE FIN-TECH PRODUCT ECOSYSTEM</h2>
-				<p className="project-header__number">/07</p>
-			</div>
-			<div className="project-gallery4">
-				<img className="project-gallery__img item_horizontal" src={galleryItem} alt="" width="100%" height="100%" />
-				<img className="project-gallery__img item_vertical" src={galleryItem3} alt="" width="100%" height="100%" />
-				<img className="project-gallery__img item_vertical" src={galleryItem4} alt="" width="100%" height="100%" />
-			</div>
-			<div className="project-article">
-				<section className="project4-article__item1">
-					<h6 className="project-article__title">Rational and Emotional Brand Benefits</h6>
-				</section>
-			</div>
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <div className="project-container">
+      <div className="project-header">
+        <h2 className="project2-header__title">
+          ART DIRECTION FOR THE REBRANDING OF THE FIN-TECH PRODUCT ECOSYSTEM
+        </h2>
+        <p className="project-header__number">/07</p>
+      </div>
+      <div className="project-gallery4">
+        <img
+          className="project-gallery__img item_horizontal"
+          src={galleryItem}
+          alt=""
+          width="100%"
+          height="100%"
+        />
+        <img
+          className="project-gallery__img item_vertical"
+          src={galleryItem3}
+          alt=""
+          width="100%"
+          height="100%"
+        />
+        <img
+          className="project-gallery__img item_vertical"
+          src={galleryItem4}
+          alt=""
+          width="100%"
+          height="100%"
+        />
+      </div>
+      <div className="project-article">
+        <section className="project4-article__item1">
+          <h6 className="project-article__title">
+            Rational and Emotional Brand Benefits
+          </h6>
+        </section>
+      </div>
 			<div className="project-gallery4">
 				<img className="project-gallery__img item_vertical" src={galleryItem5} alt="" width="100%" height="100%" />
 				<img className="project-gallery__img item_vertical" src={galleryItem6} alt="" width="100%" height="100%" />
