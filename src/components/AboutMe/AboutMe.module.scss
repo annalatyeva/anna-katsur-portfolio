@@ -5,19 +5,17 @@
     background-color: $beige;
     color: $black;
     padding: 60px 192px 100px;
+    font-style: normal;
 }
 
 .header{
-    .function {
-        font-style: normal;
+    .subtitle{
         font-weight: 500;
         font-size: 20px;
         line-height: 110%;
     
 }
-
-    .hello {
-        font-style: normal;
+    .title {
         font-weight: 500;
         font-size: 36px;
         line-height: 110%;        
@@ -41,14 +39,13 @@
 }
 
 .paragraph{
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 110%;     
 }
 
 p{
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
@@ -65,18 +62,15 @@ p{
 
 .medianame {
     font-family: $nonBold;
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .link {
     padding-top: 20px;
     display: block;
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 110%;
@@ -88,3 +82,65 @@ p{
         color: $gray;
     }
   }
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+    .container {
+        padding: 30px 70px 50px;
+    }
+    .header{
+        .title {
+            font-size: 28px;
+        }
+    }
+    .wrapper{
+        grid-gap: 50px;
+    }
+    .paragraph{
+        font-size: 28px;  
+    }
+    p{
+        font-size: 20px;
+    }
+    .medianame {
+        font-size: 56px;
+    }
+    
+    .link {        
+        font-size: 28px;
+      }
+}
+@media screen and (max-width: 899px) and (min-width: 200px) {
+    .container {
+        padding: 30px 50px 50px;
+    }
+    .header{
+        .subtitle{
+            font-size: 16px;        
+    }
+
+        .title {
+            font-size: 20px;
+        }
+    }
+    .wrapper{
+        grid-template-columns: 1fr;
+        align-items: center;
+        grid-gap: 15px;
+    }
+    .paragraph{
+        font-size: 20px;  
+    }
+    p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .medianame {
+        font-size: 56px;
+    }
+    
+    .link {        
+        font-size: 20px;
+      }
+}
+
+// @media screen and (max-width: 550px) and (min-width: 200px) {}

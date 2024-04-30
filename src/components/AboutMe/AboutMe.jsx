@@ -11,8 +11,8 @@ const AboutMe = () => {
 	return (
 		<div className={aboutmeStyle.container}>
 			<div className={aboutmeStyle.header}>
-				<p className={aboutmeStyle.function}> CREATIVE DIRECTOR &nbsp;&nbsp;/&nbsp;&nbsp; BRAND STRATEGIST &nbsp;&nbsp;/&nbsp;&nbsp; LECTURER</p>
-				<p className={aboutmeStyle.hello}>HELLO! I'M ANNA KATSUR, CREATIVE DIRECTOR WITH A STRONG FOCUS ON CREATING IMPACTFUL BRAND PLATFORMS, BRANDING, INDENTITY, AND TYPOGRAPHY.</p>
+				<p className={aboutmeStyle.subtitle}> CREATIVE DIRECTOR &nbsp;&nbsp;/&nbsp;&nbsp; BRAND STRATEGIST &nbsp;&nbsp;/&nbsp;&nbsp; LECTURER</p>
+				<p className={aboutmeStyle.title}>HELLO! I'M ANNA KATSUR, CREATIVE DIRECTOR WITH A STRONG FOCUS ON CREATING IMPACTFUL BRAND PLATFORMS, BRANDING, INDENTITY, AND TYPOGRAPHY.</p>
 			</div>
 			<div className={aboutmeStyle.mainsection}>
 				<div className={aboutmeStyle.wrapper}>
