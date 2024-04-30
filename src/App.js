@@ -14,6 +14,7 @@ import Project4 from "./pages/ProjectPages/Project4";
 import Project5 from "./pages/ProjectPages/Project5";
 import Project6 from "./pages/ProjectPages/Project6";
 import Project7 from "./pages/ProjectPages/Project7";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	return (
@@ -36,7 +37,8 @@ function App() {
 						<Route path="/project07" element={<Project7 />} />
 					</Routes>
 				</main>
-			</div>
+				<Footer />
+				</div>
 		</Router>
 	);
 }
