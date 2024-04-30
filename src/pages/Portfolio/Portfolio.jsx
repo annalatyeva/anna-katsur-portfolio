@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "../../components/Footer/Footer";
 import PortfolioItem from "../../components/PortfolioItem/PortfolioItem";
+import yatalks from "./../../assets/video/yatalks.mp4";
+import seasons from "./../../assets/video/seasons.mp4";
+import yandex from "./../../assets/video/yandex.mp4";
 import design_project3 from "./../../assets/images/design_project3.png";
 import design_project4 from "./../../assets/images/design_project4.png";
 import design_project6 from "./../../assets/images/brand_project6.png";
@@ -11,14 +14,14 @@ import style from "../Portfolio/Portfolio.module.scss";
 
 const dataBrand = [
   {
-    link: "https://player.vimeo.com/video/765743651?h=25a2d79aa1&badge=0&background=1&quality=2160&autopause=0&player_id=0&app_id=58479",
+    link: yatalks,
     number: "01",
     description:
       "CREATING A BRAND AND VISUAL IDENTITY FOR THE IT CONFERENCE YATALKS",
     format: "video",
   },
   {
-    link: "https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479",
+    link: seasons,
     number: "02",
     description:
       "CONCEPT OF THE EVENT AND CREATIVE DIRECTION FOR SEASONS BRAND IDENTITY",
@@ -40,7 +43,7 @@ const dataBrand = [
 
 const dataDesign = [
   {
-    link: "https://player.vimeo.com/video/870069354?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479",
+    link: yandex,
     number: "05",
     description: "CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND",
     format: "video",
