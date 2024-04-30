@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
 
 import "./App.scss";
 
@@ -32,39 +32,39 @@ function App() {
     "/project06",
     "/project07",
   ];
+	return (
+		<Router>
+			<InnerApp pathList={pathList} />
+		</Router>
+	);
+}
 
-  return (
-    <Router>
-      <div className="App">
-        {pathList.includes(pathname) ? <Header></Header> : <></>}
-        <main>
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/about" element={<AboutMe />} />
-            <Route path="/contact" element={<Contacts />} />
-            <Route path="/project01" element={<Project1 />} />
-            <Route path="/project02" element={<Project2 />} />
-            <Route path="/project03" element={<Project3 />} />
-            <Route path="/project04" element={<Project4 />} />
-            <Route path="/project05" element={<Project5 />} />
-            <Route path="/project06" element={<Project6 />} />
-            <Route path="/project07" element={<Project7 />} />
-            <Route path="/*" element={<ErrorPage />} />
-          </Routes>
-        </main>
-        {pathList.includes(pathname) ? (
-          pathname !== "/" ? (
-            <Footer></Footer>
-          ) : (
-            <></>
-          )
-        ) : (
-          <></>
-        )}
-      </div>
-    </Router>
-  );
+function InnerApp({pathList}) {
+	const location = useLocation();
+	const pathname = location.pathname;
+
+	return (
+		<div className="App">
+			{pathList.includes(pathname) ? <Header /> : null}
+			<main>
+				<Routes>
+					<Route path="/" element={<Main />} />
+					<Route path="/portfolio" element={<Portfolio />} />
+					<Route path="/about" element={<AboutMe />} />
+					<Route path="/contact" element={<Contacts />} />
+					<Route path="/project01" element={<Project1 />} />
+					<Route path="/project02" element={<Project2 />} />
+					<Route path="/project03" element={<Project3 />} />
+					<Route path="/project04" element={<Project4 />} />
+					<Route path="/project05" element={<Project5 />} />
+					<Route path="/project06" element={<Project6 />} />
+					<Route path="/project07" element={<Project7 />} />
+					<Route path="/*" element={<ErrorPage />} />
+				</Routes>
+			</main>
+			{pathList.slice(1).includes(pathname) ? <Footer /> : null}
+		</div>
+	);
 }
 
 export default App;
