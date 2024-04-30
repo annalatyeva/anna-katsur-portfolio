@@ -13,7 +13,7 @@ const ErrorPage = () => {
 				<div className={errorStyle.small}>We’re sorry. The page you requested could no be found.</div>
 				<div className={errorStyle.small}>Please go back to the home page</div>
 			</div>
-			<Link to="/portfolio" reloadDocument className={errorStyle.link}>
+			<Link to="/" reloadDocument className={errorStyle.link}>
 				Go Home
 			</Link>
 		</div>
