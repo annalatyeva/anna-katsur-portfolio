@@ -73,14 +73,16 @@ const Project = (props) => {
 				</div>
 			</div>
 			<div className="project-gallery3">
-				<div className="project-gallery__wrapper">
+				<div className="project-gallery__wrapper  project-gallery3__item">
 					<ReactPlayer url="https://player.vimeo.com/video/765744089?h=f78bb2ffad&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
 				</div>
-				<div className="project-gallery__wrapper project-gallery3__item">
-					<img className="project-gallery__item" src={galleryItem3} alt="" width="100%" height="100%" />
-				</div>
-				<div className="project-gallery__wrapper project-gallery3__item">
-					<img className="project-gallery__item" src={galleryItem4} alt="" width="100%" height="100%" />
+				<div className="project-gallery3__wrapper">
+					<div className="project-gallery__wrapper project-gallery3__item">
+						<img className="project-gallery__item" src={galleryItem3} alt="" width="100%" height="100%" />
+					</div>
+					<div className="project-gallery__wrapper project-gallery3__item">
+						<img className="project-gallery__item" src={galleryItem4} alt="" width="100%" height="100%" />
+					</div>
 				</div>
 			</div>
 			<div className="project-gallery4">

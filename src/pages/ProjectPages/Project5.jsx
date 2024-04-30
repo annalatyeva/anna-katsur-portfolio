@@ -81,16 +81,16 @@ const Project5 = () => {
 			<div className="project-article">
 				<section className="project-article__item2">The fluid visual system is based on typography. It adapts the syntax of programming languages. Diverse product directions of YfD are highlighted by a generator of motion and static graphics, supported by a vibrant color palette. The identity seamlessly adjusts to digital and print media, from posters and landing pages to installations and merchandise.​​​​​​​</section>
 			</div>
-			<div className="project-gallery">
-				<div className="project-gallery__wrapper">
+			<div className="project-gallery5">
+				<div className="project-gallery__wrapper  item_horizontal2">
 					<ReactPlayer url="https://player.vimeo.com/video/862118913?h=0de10078a4&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
 				</div>
-				<div className="project-gallery__wrapper">
+				<div className="project-gallery__wrapper  item_horizontal2">
 					<ReactPlayer url="https://player.vimeo.com/video/871822600?h=e8494aa47d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
 				</div>
 				<img className="project-gallery__item" src={galleryItem} alt="" width="100%" height="100%" />
 				<img className="project-gallery__item" src={galleryItem2} alt="" width="100%" height="100%" />
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="project-gallery__wrapper item_horizontal2">
 					<ReactPlayer url="https://player.vimeo.com/video/862081255?h=c33522dcd3&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
 				</div>
 			</div>
