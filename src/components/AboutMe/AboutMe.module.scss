@@ -1,83 +1,152 @@
 @import "../../assets/styles/variables.scss";
 
 .container {
-    display: flex;
+    font-family: $dmsans;
+    background-color: $beige;
     color: $black;
+    padding: 60px 192px 100px;
+    font-style: normal;
+}
+
+.header{
+    .subtitle{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 110%;
+    
+}
+    .title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 110%;        
+        padding: 20px 0 40px;
+    }
+}
+.mainsection{
+    display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    font-family: $nonBold;
-    margin-bottom: 80px;
+    gap: 100px;
 }
-
-.about {
-    display: flex;
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    grid-gap: 187px;
+
+    .image {
+        max-width: 254px;
+        }
 }
 
-.function {
-    font-size: medium;
-    font-weight: bold;
+.paragraph{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 110%;     
 }
 
-.hello {
-    font-size: xx-large;
-    font-weight: bold;
-    margin-right: 250px;
+p{
+    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    padding-bottom: 20px;
 }
 
-.text {
-    width: 30%;
-    font-size: larger;
-}
-
-.image {
-margin-left: 320px;
-}
-
-
-.aboutme {
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
-}
-
-.aboutmeleft {
-    width: 40%;
-    font-size: x-large;
-    font-weight: bold;
-}
-.aboutmeright {
-    margin-left: 150px;
-    width: 30%;
-    font-size: large;
-}
-
-.aboutmecenter {
-    margin-top: 100px;
-    font-size: x-large;
-    font-weight: bold;
-    width: 78%;
-}
 
 .media {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
+    border: 1px solid #000000;
 }
 
 .medianame {
-    font-size: xx-large;
-    font-weight: bolder;
+    font-family: $nonBold;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link {
+    padding-top: 20px;
     display: block;
-    font-size: x-large;
-    margin-top: 10px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 110%;
     color: $black;
     text-decoration: none;
+    transition: 0.3s all;
 
     &:hover {
         color: $gray;
     }
   }
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+    .container {
+        padding: 30px 70px 50px;
+    }
+    .header{
+        .title {
+            font-size: 28px;
+        }
+    }
+    .wrapper{
+        grid-gap: 50px;
+    }
+    .paragraph{
+        font-size: 28px;  
+    }
+    p{
+        font-size: 20px;
+    }
+    .medianame {
+        font-size: 56px;
+    }
+    
+    .link {        
+        font-size: 28px;
+      }
+}
+@media screen and (max-width: 899px) and (min-width: 200px) {
+    .container {
+        padding: 20px 30px 50px;
+    }
+    .header{
+        .subtitle{
+            font-size: 16px;        
+    }
+
+        .title {
+            font-size: 20px;
+        }
+    }
+    .mainsection{
+        gap: 20px;
+    }
+
+    .wrapper{
+        grid-template-columns: 1fr;
+        align-items: center;
+        grid-gap: 15px;
+    }
+    .paragraph{
+        font-size: 20px;  
+    }
+    p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .media {
+        margin-top: 20px;
+    }
+
+    .medianame {
+        font-size: 48px;
+    }
+    
+    .link {        
+        font-size: 20px;
+      }
+}

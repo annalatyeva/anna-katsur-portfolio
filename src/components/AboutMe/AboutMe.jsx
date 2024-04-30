@@ -10,32 +10,35 @@ const AboutMe = () => {
 	}, []);
 	return (
 		<div className={aboutmeStyle.container}>
-			<p className={aboutmeStyle.function}> CREATIVE DIRECTOR / BRAND STRATEGIST / LECTURER</p> <br></br>
-			<p className={aboutmeStyle.hello}>HELLO! I'M ANNA KATSUR, CREATIVE DIRECTOR WITH A STRONG FOCUS ON CREATING IMPACTFUL BRAND PLATFORMS, BRANDING, INDENTITY, AND TYPOGRAPHY.</p> <br></br> <br></br>
-			<div className={aboutmeStyle.about}>
-				<div className={aboutmeStyle.text}>
-					<p>With over a decade of experience, I specialize in elevating brand presence and engagement in the IT and fintech sectors. My professional journey includes leading over 50 successful advertising campaigns and spearheading significant redesign and rebranding initiatives for major corporations.</p>
-					<br></br>
-					<p>Currently, I lead the Creative Studio and Employer's Internal Brand Department at a major technology firm, where I have developed over 30 creative concepts and five comprehensive brand strategies. These efforts have not only strengthened the emotional connection between the brand and its audience but have also boosted brand recognition impressively.</p>
-				</div>
-				<div className={aboutmeStyle.image}>
-					<img src={photoItem} alt="Anna" />
-				</div>
+			<div className={aboutmeStyle.header}>
+				<p className={aboutmeStyle.subtitle}> CREATIVE DIRECTOR &nbsp;&nbsp;/&nbsp;&nbsp; BRAND STRATEGIST &nbsp;&nbsp;/&nbsp;&nbsp; LECTURER</p>
+				<p className={aboutmeStyle.title}>HELLO! I'M ANNA KATSUR, CREATIVE DIRECTOR WITH A STRONG FOCUS ON CREATING IMPACTFUL BRAND PLATFORMS, BRANDING, INDENTITY, AND TYPOGRAPHY.</p>
 			</div>
-			<div className={aboutmeStyle.aboutme}>
-				<div className={aboutmeStyle.aboutmeleft}>
-					<p> I AM ALSO PASSIONATE ABOUT EDUCATION, SERVING AS A LECTURER AT THE BRITISH HIGHER SCHOOL OF ART AND DESIGN.</p>
+			<div className={aboutmeStyle.mainsection}>
+				<div className={aboutmeStyle.wrapper}>
+					<div className={aboutmeStyle.text}>
+						<p>With over a decade of experience, I specialize in elevating brand presence and engagement in the IT and fintech sectors. My professional journey includes leading over 50 successful advertising campaigns and spearheading significant redesign and rebranding initiatives for major corporations.</p>
+						<p>Currently, I lead the Creative Studio and Employer's Internal Brand Department at a major technology firm, where I have developed over 30 creative concepts and five comprehensive brand strategies. These efforts have not only strengthened the emotional connection between the brand and its audience but have also boosted brand recognition impressively.</p>
+					</div>
+					<div className={aboutmeStyle.image}>
+						<img src={photoItem} alt="Anna" />
+					</div>
 				</div>
-				<div className={aboutmeStyle.aboutmeright}>
+			<div className={aboutmeStyle.wrapper}>
+				<div className={aboutmeStyle.text}>
+					<p className={aboutmeStyle.paragraph}> I AM ALSO PASSIONATE ABOUT EDUCATION, SERVING AS A LECTURER AT THE BRITISH HIGHER SCHOOL OF ART AND DESIGN.</p>
+				</div>
+				<div className={aboutmeStyle.text}>
 					<p>There, I have designed and led a three-month intensive module focusing on research, design, and branding, among other subjects, preparing the next generation of designers and brand strategists.</p>
 					<p>Holding a Global Talent visa in the UK for visual arts, my work has been recognized with several prestigious awards, including a recent Gold at the Futuregosummit for 'New artist' and a Silver at the European Design Awards for the SB Type system.</p>
 				</div>
 			</div>
-			<div className={aboutmeStyle.aboutmecenter}>
-				<p>I AM KEEN TO SHARE INSIGHTS AND EXPLORE SYNERGIES AT YOUR NEXT FESTIVAL, PUBLIC SPEAKING EVENT, OR SEMINAR. IF YOU'RE INTERESTED IN REVITALIZING YOUR BRAND OR INFUSING INNOVATIVE CREATIVE STRATEGIES INTO YUOR CORPORATE CULTURE, I AM HERE TO INSPIRE AND GUIDE. LET'S CONNECT AND CREATE SOMETHING EXTRAORDINARY TOGETHER!</p>
+			<div className={aboutmeStyle.text}>
+				<p className={aboutmeStyle.paragraph}>I AM KEEN TO SHARE INSIGHTS AND EXPLORE SYNERGIES AT YOUR NEXT FESTIVAL, PUBLIC SPEAKING EVENT, OR SEMINAR. IF YOU'RE INTERESTED IN REVITALIZING YOUR BRAND OR INFUSING INNOVATIVE CREATIVE STRATEGIES INTO YUOR CORPORATE CULTURE, I AM HERE TO INSPIRE AND GUIDE. LET'S CONNECT AND CREATE SOMETHING EXTRAORDINARY TOGETHER!</p>
+			</div>
 			</div>
 			<div className={aboutmeStyle.media}>
-				<div className={aboutmeStyle.medianame}>Media</div>
+				<h3 className={aboutmeStyle.medianame}>Media</h3>
 				<div className={aboutmeStyle.medialinks}>
 					<a className={aboutmeStyle.link} href="https://my.epicgrowth.io/programs/rebranding">
 						[REBRANDING PROGRAM]
