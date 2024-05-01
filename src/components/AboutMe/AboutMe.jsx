@@ -3,6 +3,7 @@ import {useEffect} from "react";
 import aboutmeStyle from "../AboutMe/AboutMe.module.scss";
 
 import photoItem from "../../assets/images/anna.png";
+import photoItem2 from "../../assets/images/anna_mob_pic.png"
 
 const AboutMe = () => {
 	useEffect(() => {
@@ -22,6 +23,9 @@ const AboutMe = () => {
 					</div>
 					<div className={aboutmeStyle.image}>
 						<img src={photoItem} alt="Anna" />
+					</div>
+					<div className={aboutmeStyle.image2}>
+						<img src={photoItem2} alt="Anna" />
 					</div>
 				</div>
 			<div className={aboutmeStyle.wrapper}>

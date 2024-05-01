@@ -4,7 +4,7 @@
     font-family: $dmsans;
     background-color: $beige;
     color: $black;
-    padding: 60px 192px 100px;
+    padding: 60px 100px 100px;
     font-style: normal;
 }
 
@@ -30,11 +30,15 @@
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
     grid-gap: 187px;
 
     .image {
-        max-width: 254px;
+        align-self: center;
+        width: 100%;
+        height: auto;
+        }
+        .image2{
+            display: none;
         }
 }
 
@@ -57,7 +61,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    border: 1px solid #000000;
 }
 
 .medianame {
@@ -65,7 +68,6 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link {
@@ -83,7 +85,7 @@
     }
   }
 
-@media screen and (max-width: 1200px) and (min-width: 900px) {
+@media screen and (max-width: 1300px) and (min-width: 900px) {
     .container {
         padding: 30px 70px 50px;
     }
@@ -109,7 +111,7 @@
         font-size: 28px;
       }
 }
-@media screen and (max-width: 899px) and (min-width: 200px) {
+@media screen and (max-width: 899px) and (min-width: 460px) {
     .container {
         padding: 20px 30px 50px;
     }
@@ -148,5 +150,58 @@
     
     .link {        
         font-size: 20px;
+      }
+}
+@media screen and (max-width: 459px) and (min-width: 200px) {
+    .container {
+        padding: 20px 30px 50px;
+    }
+    .header{
+        .subtitle{
+            font-size: 10px;        
+    }
+        .title {
+            font-size: 16px;
+            padding: 10px 0 20px;
+        }
+    }
+    .mainsection{
+        gap: 20px;
+    }
+
+    .wrapper{
+        grid-template-columns: 1fr;
+        align-items: center;
+        grid-gap: 15px;
+        .image {
+            display: none;
+
+            }
+            .image2{
+                display: block;
+                align-self: center;
+                width: 100%;
+                height: auto;
+            }
+    }
+    .paragraph{
+        font-size: 16px;  
+    }
+    .textitem{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .media {
+        margin-top: 20px;
+    }
+
+    .medianame {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    
+    .link {        
+        padding-top: 15px;
+        font-size: 16px;
       }
 }
