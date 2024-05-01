@@ -24,7 +24,7 @@ const Project6 = () => {
         </h2>
         <p className="project-header__number">/06</p>
       </div>
-      <div className="project-gallery__wrapper">
+      <div className="project-gallery__wrapper b23">
         <ReactPlayer
             url="https://player.vimeo.com/video/941363731?h=e774d2e59e"
             className="project-gallery__item"
