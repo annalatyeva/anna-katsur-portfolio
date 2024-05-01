@@ -1,7 +1,7 @@
 import "./Project.scss";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 import galleryItem from "../../assets/images/project6-pic1.png";
 import galleryItem2 from "../../assets/images/project6-pic2.png";
 import galleryItem3 from "../../assets/images/project6-pic3.png";
@@ -25,15 +25,15 @@ const Project6 = () => {
         <p className="project-header__number">/06</p>
       </div>
       <div className="project-gallery__wrapper">
-        {/* <ReactPlayer
-            url="https://disk.yandex.ru/d/P46llDbLRScMuQ/Портфолио/Бренды/Y-team/YTeam_RK_0403-02.mp4"
+        <ReactPlayer
+            url="https://player.vimeo.com/video/941363731?h=e774d2e59e"
             className="project-gallery__item"
             muted={true}
             playing={true}
             loop={true}
             width="100%"
             height="100%"
-          /> */}
+          />
       </div>
       <div className="project-article">
         <section className="project-article__item1">
@@ -131,25 +131,12 @@ const Project6 = () => {
       </div>
       <div className="project-gallery__logo">
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_horizontal3"
           src={galleryItem8}
           alt=""
           width="100%"
           height="100%"
         />
-      </div>
-      <div className="project-gallery__wrapper">
-        {/* <ReactPlayer
-            url="https://disk.yandex.ru/d/P46llDbLRScMuQ/Портфолио/Бренды/Y-team/Yandex_team_nochok.mp4"
-            className="project-gallery__item"
-            controls
-            playing={true}
-            muted={true}
-            loop={true}
-            width="100%"
-            height="100%"
-            style={{padding: "0 0 100px 0"}}
-          /> */}
       </div>
       <Link to="/project07" className="project-switch__link">
         <div className="project-switch">
