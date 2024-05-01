@@ -1,6 +1,11 @@
+import { useState } from "react";
 import style from "../PortfolioItem/PortfolioItem.module.scss";
 
-const PortfolioItem = ({ link, number, description, format }) => {
+const PortfolioItem = ({ link, number, description, format, cover }) => {
+  const [loaded, setLoaded] = useState(false);
+  const handleLoaded = () => {
+    setLoaded(true);
+  };
   return (
     <div className={style.container}>
       <div className={style.wrapper}>
@@ -8,9 +13,18 @@ const PortfolioItem = ({ link, number, description, format }) => {
           {format === "image" ? (
             <img src={link} alt={`project${number}`} />
           ) : (
-            <video autoPlay loop>
-              <source src={link} type="video/mp4" />
-            </video>
+            <div>
+              {!loaded && <img src={cover} alt={`project${number}`} />}
+              <video
+                autoPlay
+                loop
+                onLoadedData={handleLoaded}
+                className={!loaded && style.notloaded}
+              >
+                <source src={link} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           )}
         </div>
         <span className={style.number}>/</span>

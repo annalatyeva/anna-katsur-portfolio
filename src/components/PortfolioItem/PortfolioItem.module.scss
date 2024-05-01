@@ -19,6 +19,9 @@ a {
         width: 100%;
       }
     }
+    .notloaded {
+      display: none;
+    }
     .number {
       font-family: $dmsans;
       font-size: 96px;
