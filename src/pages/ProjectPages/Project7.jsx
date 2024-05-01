@@ -54,7 +54,7 @@ const Project7 = () => {
           height="100%"
         />
       </div>
-      <div className="project-article">
+      <div className="project3-article">
         <section className="project4-article__item1">
           <h6 className="project-article__title">
             Rational and Emotional Brand Benefits

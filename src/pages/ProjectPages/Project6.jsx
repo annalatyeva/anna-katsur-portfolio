@@ -124,9 +124,9 @@ const Project6 = () => {
           height="100%"
         />
       </div>
-      <div className="project-article">
+      <div className="project3-article">
         <section className="project-article__item1">
-          Search, invent, try, and create together.
+          <h6 className="project-article__title">Search, invent, try, and create together.</h6>
         </section>
       </div>
       <div className="project-gallery__logo">

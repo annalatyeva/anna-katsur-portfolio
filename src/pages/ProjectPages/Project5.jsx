@@ -110,6 +110,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/862318538?h=4ea0f25798&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -120,6 +121,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/862129417?h=42ab2fd2e8&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -150,6 +152,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/871822571?h=ad9f8e895c&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -160,6 +163,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/871804706?h=c56d51ec06&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -182,6 +186,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/862118913?h=0de10078a4&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -192,6 +197,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/871822600?h=e8494aa47d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -216,6 +222,7 @@ const Project5 = () => {
           <ReactPlayer
             url="https://player.vimeo.com/video/862081255?h=c33522dcd3&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"

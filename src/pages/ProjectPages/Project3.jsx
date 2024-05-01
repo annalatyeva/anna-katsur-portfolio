@@ -18,7 +18,7 @@ import galleryItem13 from "../../assets/images/project3-pic13.png";
 
 const team = [
   { role: "Art Director", name: "Anna Katsur" },
-  { role: "Manager", name: "Ira Voloshina" },
+  { role: "Art Director", name: "Ira Voloshina" },
   { role: "Font Development", name: "Paratype" },
   { role: "Implementation, Testing", name: "Sber Design Team" },
 ];
@@ -137,7 +137,7 @@ const Project3 = () => {
           height="100%"
         />
       </div>
-      <div className="project-article">
+      <div className="project3-article">
         <section className="project4-article__item1">
           <h6 className="project-article__title">SB Sans Screen</h6>
         </section>
@@ -151,7 +151,7 @@ const Project3 = () => {
           height="100%"
         />
       </div>
-      <div className="project-article">
+      <div className="project3-article">
         <section className="project4-article__item1">
           <h6 className="project-article__title">SB Sans Text Mono</h6>
           <p className="project4-article__text">
@@ -199,7 +199,7 @@ const Project3 = () => {
           height="100%"
         />
       </div>
-      <div className="project-article">
+      <div className="project3-article">
         <section className="project4-article__item1">
           <h6 className="project-article__title">SB Serif Text</h6>
           <p className="project4-article__text">
@@ -217,7 +217,7 @@ const Project3 = () => {
           height="100%"
         />
       </div>
-      <div className="project-article">
+      <div className="project3-article">
         <section className="project4-article__item1">
           <h6 className="project-article__title"> SB Serif Display</h6>
         </section>
