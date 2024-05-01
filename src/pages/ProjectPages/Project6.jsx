@@ -24,7 +24,7 @@ const Project6 = () => {
         </h2>
         <p className="project-header__number">/06</p>
       </div>
-      <div className="project-gallery__wrapper">
+      <div className="project-gallery__wrapper b23">
         <ReactPlayer
             url="https://player.vimeo.com/video/941363731?h=e774d2e59e"
             className="project-gallery__item"
@@ -124,9 +124,9 @@ const Project6 = () => {
           height="100%"
         />
       </div>
-      <div className="project-article">
+      <div className="project3-article">
         <section className="project-article__item1">
-          Search, invent, try, and create together.
+          <h6 className="project-article__title">Search, invent, try, and create together.</h6>
         </section>
       </div>
       <div className="project-gallery__logo">

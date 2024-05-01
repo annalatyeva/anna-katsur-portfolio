@@ -37,7 +37,7 @@ const Project5 = () => {
         </h2>
         <p className="project-header__number">/ 05</p>
       </div>
-      <div className="project-gallery__wrapper">
+      <div className="project-gallery__wrapper b12">
         <ReactPlayer
           url="https://player.vimeo.com/video/862109483?h=6fd26ffd5d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
           className="project-gallery__item"
@@ -65,7 +65,7 @@ const Project5 = () => {
         </section>
       </div>
       <div className="project-gallery">
-        <div className="project-gallery__wrapper item_horizontal">
+        <div className="project-gallery__wrapper item_horizontal b13">
           <ReactPlayer
             url="https://player.vimeo.com/video/870069354?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
@@ -75,7 +75,7 @@ const Project5 = () => {
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper item_horizontal">
+        <div className="project-gallery__wrapper item_horizontal b14">
           <ReactPlayer
             url="https://player.vimeo.com/video/862075633?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
@@ -96,7 +96,7 @@ const Project5 = () => {
         </section>
       </div>
       <div className="project-gallery">
-        <div className="project-gallery__wrapper item_vertical">
+        <div className="project-gallery__wrapper item_vertical b15">
           <ReactPlayer
             url="https://player.vimeo.com/video/870061329?badge=0&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
@@ -106,20 +106,22 @@ const Project5 = () => {
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper item_vertical">
+        <div className="project-gallery__wrapper item_vertical b16">
           <ReactPlayer
             url="https://player.vimeo.com/video/862318538?h=4ea0f25798&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper item_horizontal">
+        <div className="project-gallery__wrapper item_horizontal b17">
           <ReactPlayer
             url="https://player.vimeo.com/video/862129417?h=42ab2fd2e8&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -146,20 +148,22 @@ const Project5 = () => {
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper item_horizontal">
+        <div className="project-gallery__wrapper item_horizontal b18">
           <ReactPlayer
             url="https://player.vimeo.com/video/871822571?h=ad9f8e895c&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper item_horizontal">
+        <div className="project-gallery__wrapper item_horizontal b19">
           <ReactPlayer
             url="https://player.vimeo.com/video/871804706?h=c56d51ec06&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -178,20 +182,22 @@ const Project5 = () => {
         </section>
       </div>
       <div className="project-gallery5">
-        <div className="project-gallery__wrapper  item_horizontal2">
+        <div className="project-gallery__wrapper item_horizontal2 b20">
           <ReactPlayer
             url="https://player.vimeo.com/video/862118913?h=0de10078a4&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
             height="100%"
           />
         </div>
-        <div className="project-gallery__wrapper  item_horizontal2">
+        <div className="project-gallery__wrapper  item_horizontal2 b21">
           <ReactPlayer
             url="https://player.vimeo.com/video/871822600?h=e8494aa47d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
@@ -212,10 +218,11 @@ const Project5 = () => {
           width="100%"
           height="100%"
         />
-        <div className="project-gallery__wrapper item_horizontal2">
+        <div className="project-gallery__wrapper item_horizontal2 b22">
           <ReactPlayer
             url="https://player.vimeo.com/video/862081255?h=c33522dcd3&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"
             className="project-gallery__item"
+            muted={true}
             playing={true}
             loop={true}
             width="100%"
