@@ -58,33 +58,34 @@ header {
 .container {
   display: flex;
   justify-content: space-between;
-  width: 80.5%;
+  width: 76.5%;
   min-width: 600px;
   padding: 20px 40px 0;
 }
 
 .download {
   height: min-content;
+  padding-top: 7px;
   font-size: 24px;
   font-family: $nonBold;
-  letter-spacing: 0.04em;
+  line-height: 1em;
 }
 
 .logo {
   font-size: 40px;
   font-family: $nonBold;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   line-height: 1em;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 20px 0 0 191px;
-  font-size: 36px;
+  gap: 6px;
+  padding: 14px 0 0 119px;
+  font-size: 24px;
   font-family: $nonRegular;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   line-height: 1em;
 }
 
