@@ -1,7 +1,5 @@
 import ContactsStyle from "../Сontacts/Contacts.module.scss";
 
-import Footer from "../../components/Footer/Footer.jsx";
-
 const Contacts = () => {
 	return (
 		<>
