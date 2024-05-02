@@ -32,23 +32,25 @@ function InnerApp({pathList}) {
 
 	return (
 		<div className="App">
-			{pathList.includes(pathname) ? <Header /> : null}
-			<main>
-				<Routes>
-					<Route path="/" element={<Main />} />
-					<Route path="/portfolio" element={<Portfolio />} />
-					<Route path="/about" element={<AboutMe />} />
-					<Route path="/contact" element={<Contacts />} />
-					<Route path="/project01" element={<Project1 />} />
-					<Route path="/project02" element={<Project2 />} />
-					<Route path="/project03" element={<Project3 />} />
-					<Route path="/project04" element={<Project4 />} />
-					<Route path="/project05" element={<Project5 />} />
-					<Route path="/project06" element={<Project6 />} />
-					<Route path="/project07" element={<Project7 />} />
-					<Route path="/*" element={<ErrorPage />} />
-				</Routes>
-			</main>
+			<div className="app-container">
+				{pathList.includes(pathname) ? <Header /> : null}
+				<main>
+					<Routes>
+						<Route path="/" element={<Main />} />
+						<Route path="/portfolio" element={<Portfolio />} />
+						<Route path="/about" element={<AboutMe />} />
+						<Route path="/contact" element={<Contacts />} />
+						<Route path="/project01" element={<Project1 />} />
+						<Route path="/project02" element={<Project2 />} />
+						<Route path="/project03" element={<Project3 />} />
+						<Route path="/project04" element={<Project4 />} />
+						<Route path="/project05" element={<Project5 />} />
+						<Route path="/project06" element={<Project6 />} />
+						<Route path="/project07" element={<Project7 />} />
+						<Route path="/*" element={<ErrorPage />} />
+					</Routes>
+				</main>
+			</div>
 			{pathList.slice(1).includes(pathname) ? <Footer /> : null}
 		</div>
 	);

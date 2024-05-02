@@ -11,3 +11,18 @@ body {
   max-width: 1600px;
   margin: auto;
 }
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.app-container {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
