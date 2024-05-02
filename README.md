@@ -68,10 +68,19 @@ Goncharova Anastasia - Frontend Developer, Portfolio page
 - https://github.com/goncharovastacy
 - gonchar.stacy@gmail.com
 
+Daria Fadeeva - Frontend-developer, Main page
+https://github.com/Dari-Dari
+me@daria-fadeeva.ru
+
 Katsiaryna Pilipets - Frontend Developer, About me, Footer
 - https://github.com/KatsiarynaPilipets
 - katsiarynapilipets@gmail.com
 
+Elizaveta Chernogorodova - Project Manager 
+- my.new.life.in.2014@gmail.com
+
+Polina Lonshakova - Designer, Project Manager 
+- preverberator@gmail.com
 
 
 
