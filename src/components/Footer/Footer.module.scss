@@ -1,8 +1,8 @@
 @import "../../assets/styles/variables.scss";
 
 .wrapper {
-  margin: 20px auto;
-  padding: 0 20px;
+  // margin: 20px auto;
+  padding: 20px 40px;
   font-family: $dmsans;
   font-size: 24px;
   font-weight: 500;
@@ -46,6 +46,7 @@
 
 @media screen and (max-width: 767px) {
   .wrapper {
+    padding: 10px;
     font-weight: 600;
     font-size: 14px;
 

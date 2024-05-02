@@ -23,19 +23,20 @@
   display: block;
   content: "";
   width: 0%;
-  height: 3px;
+  height: 2px;
   background-color: $bordo;
   transition: width 0.4s ease-in-out;
 }
 
 .header *a:hover::after {
+  height: 2px;
   width: 100%;
 }
 
 header *.active::after {
   display: block;
   content: "";
-  height: 3px;
+  height: 2px;
   width: 100%;
   background-color: $bordo;
 }
@@ -86,7 +87,7 @@ header {
   font-size: 24px;
   font-family: $nonRegular;
   letter-spacing: 0.03em;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 @media (max-width: 1024px) {

@@ -1,15 +1,16 @@
 @import "../../assets/styles/variables.scss";
 
 .container {
-  padding: 60px 40px 70px;
+  padding: 12vh 40px 0;
   min-width: 600px;
   width: 71%;
 }
 
 .info {
   color: $black;
-  font-size: 52px;
-  font-family: $nonBold;
+  font-size: 48px;
+  font-family: $dmsans;
+  font-weight: 500;
   letter-spacing: 0.03em;
 }
 
@@ -20,6 +21,27 @@
   letter-spacing: 0.04em;
 }
 
+@media (max-width: 1281px) {
+  .container {
+    padding: 5vh 40px 0;
+  }
+}
+
+@media (max-width: 1224px) {
+  .info {
+    font-size: 40px;
+  }
+  .smalInfo {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1224px) and (orientation: portrait) {
+  .container {
+    padding: 12vh 40px 0;
+  }
+}
+
 @media (max-width: 1024px) {
   .container {
     min-width: 200px;
@@ -27,18 +49,24 @@
   }
 
   .info {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .smalInfo {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 10px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  .container {
+    padding: 27vh 40px 0;
   }
 }
 
 @media (max-width: 767px) {
   .container {
     width: 95%;
-    padding: 75px 10px 170px;
+    padding: 27vh 10px 0;
   }
 }
