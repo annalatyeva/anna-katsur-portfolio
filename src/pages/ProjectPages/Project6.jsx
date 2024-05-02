@@ -1,4 +1,5 @@
 import "./Project.scss";
+import "./video-posters.scss";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import ReactPlayer from "react-player";
