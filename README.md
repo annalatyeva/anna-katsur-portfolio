@@ -56,12 +56,21 @@
 
 ## Team
 
-Latyeva Anna - Teamlead, Contact page, Header
+Latyeva Anna - Teamlead,  Frontend Developer, Contact page, Header
 - https://github.com/annalatyeva
 - latyevaanna@gmail.com
 
+Borisova Nadezhda - Frontend Developer, Project pages
+- https://github.com/Nadia-HPoe
+- heatherpoe.bn@gmail.com
 
+Goncharova Anastasia - Frontend Developer, Portfolio page
+- https://github.com/goncharovastacy
+- gonchar.stacy@gmail.com
 
+Katsiaryna Pilipets - Frontend Developer, About me, Footer
+- https://github.com/KatsiarynaPilipets
+- katsiarynapilipets@gmail.com
 
 
 
