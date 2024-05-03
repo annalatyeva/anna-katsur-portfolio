@@ -8,6 +8,9 @@ import yandex from "./../../assets/video/yandex.mp4";
 import yatalks_img from "./../../assets/images/yatalks.png";
 import seasons_img from "./../../assets/images/seasons.png";
 import yandex_img from "./../../assets/images/yandex.png";
+import yatalks_gif from "./../../assets/images/yatalks.gif";
+import seasons_gif from "./../../assets/images/seasons.gif";
+import yandex_gif from "./../../assets/images/yandex.gif";
 import design_project3 from "./../../assets/images/design_project3.png";
 import design_project4 from "./../../assets/images/design_project4.png";
 import design_project6 from "./../../assets/images/brand_project6.png";
@@ -22,6 +25,7 @@ const dataBrand = [
       "CREATING A BRAND AND VISUAL IDENTITY FOR THE IT CONFERENCE YATALKS",
     format: "video",
     cover: yatalks_img,
+    gif: yatalks_gif,
   },
   {
     link: seasons,
@@ -30,6 +34,7 @@ const dataBrand = [
       "CONCEPT OF THE EVENT AND CREATIVE DIRECTION FOR SEASONS BRAND IDENTITY",
     format: "video",
     cover: seasons_img,
+    gif: seasons_gif,
   },
   {
     link: design_project3,
@@ -52,6 +57,7 @@ const dataDesign = [
     description: "CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND",
     format: "video",
     cover: yandex_img,
+    gif: yandex_gif,
   },
   {
     link: design_project6,
@@ -98,6 +104,7 @@ const Portfolio = () => {
                     description={item.description}
                     format={item.format}
                     cover={item.cover}
+                    gif={item.gif}
                     key={item.number}
                   />
                 </Link>
@@ -110,6 +117,7 @@ const Portfolio = () => {
                     description={item.description}
                     format={item.format}
                     cover={item.cover}
+                    gif={item.gif}
                     key={item.number}
                   />
                 </Link>
