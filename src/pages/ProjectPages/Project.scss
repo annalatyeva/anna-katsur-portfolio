@@ -100,7 +100,20 @@
 
 .project-gallery3__wrapper {
   display: grid;
-  grid-template-columns:  repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-gallery3__item {
+  img {
+    object-fit: cover;
+    object-position: bottom;
+  }
+}
+
+.project-gallery3__item:last-child {
+  img {
+    object-position: center;
+  }
 }
 
 .project-gallery4 {
@@ -125,7 +138,7 @@
   padding: 80px 40px;
 
   .project-article__item1 {
-    font-size: 36px;           
+    font-size: 36px;
     font-weight: 500;
     line-height: 40px;
     text-align: left;
@@ -170,13 +183,13 @@
     }
   }
 }
-.project3-article{
+.project3-article {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 100px 40px 40px;
   .project-article__item1 {
-    font-size: 36px;           
+    font-size: 36px;
     font-weight: 500;
     line-height: 40px;
     text-align: left;
@@ -200,7 +213,6 @@
     font-size: 36px;
     text-transform: uppercase;
   }
-
 }
 
 //////////////////////////////////////////////////team block//////////////////////////////////////////////////
@@ -255,16 +267,14 @@
   align-items: center;
   justify-content: end;
   transition: 0.3s all;
-  &:hover{
+  &:hover {
     color: $gray;
   }
-
 }
 .project-switch__link {
   position: relative;
   text-decoration: none;
   color: inherit;
-  
 }
 
 .project-switch__title {
@@ -274,7 +284,6 @@
   font-weight: 500;
   line-height: 36px;
   text-align: left;
-  
 }
 
 .project-switch__number {
@@ -291,20 +300,20 @@
       font-size: 50px;
       line-height: 50px;
     }
-    .project-header__title{
+    .project-header__title {
       max-width: 65%;
-      } 
-    .project2-header__title{
+    }
+    .project2-header__title {
       max-width: 75%;
-      }
-    .project5-header__title{
+    }
+    .project5-header__title {
       max-width: 65%;
-      }
+    }
     .project-header__number {
       font-size: 76px;
     }
   }
-  .project3-article{
+  .project3-article {
     padding: 40px 20px 20px;
     .project-article__item1 {
       font-size: 24px;
@@ -428,7 +437,7 @@
       font-size: 55px;
     }
   }
-  .project3-article{
+  .project3-article {
     padding: 20px 10px 10px;
     .project-article__item1 {
       max-width: 70%;
@@ -554,7 +563,7 @@
       display: none;
     }
   }
-  .project3-article{
+  .project3-article {
     padding: 40px 0 10px;
     .project-article__item1 {
       max-width: 100%;
@@ -660,7 +669,7 @@
     padding-bottom: 50px;
   }
 
-  .project-gallery3__wrapper{
+  .project-gallery3__wrapper {
     gap: 5px;
   }
   .project-team {
