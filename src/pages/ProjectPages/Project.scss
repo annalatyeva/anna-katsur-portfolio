@@ -73,12 +73,22 @@
   width: 100%;
   height: auto;
 }
+
+.item_horizontal4 {
+  flex: 1;
+  object-fit: cover;
+  height: auto;
+}
+
 .item_vertical {
   grid-column: span 1;
   width: 100%;
   height: auto;
 }
-
+.item_vertical2 {
+  width: 40%;
+  height: auto;
+}
 .project-gallery2 {
   display: grid;
   gap: 20px;
@@ -127,6 +137,12 @@
   padding-top: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project-gallery6 {
+  padding-top: 20px;
+  display: flex;
   gap: 20px;
 }
 
