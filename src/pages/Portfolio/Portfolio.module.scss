@@ -12,6 +12,10 @@
       font-size: 96px;
       color: $gray;
       cursor: pointer;
+      transition: 0.3s all;
+      &:hover {
+        color: $black;
+      }
     }
     span {
       font-family: $nonBold;
