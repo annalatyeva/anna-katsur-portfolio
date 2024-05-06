@@ -2,7 +2,7 @@ import "./Project.scss";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-import galleryItem from "../../assets/images/project3-pic1.png";
+import galleryItem from "../../assets/images/project3-pic0.png";
 import galleryItem2 from "../../assets/images/project3-pic2.png";
 import galleryItem3 from "../../assets/images/project3-pic3.png";
 import galleryItem4 from "../../assets/images/project3-pic4.png";
@@ -48,13 +48,13 @@ const Project3 = () => {
         <section className="project-article__item1">
           If you imagine branding as an iceberg, then the visible part would
           include the logo, symbol, and corporate colour. However, the entire
-          iceberg—that is, branding—is not just the most obvious part, but a
+          iceberg — that is, branding — is not just the most obvious part, but a
           complex system.
         </section>
         <section className="project4-article__item1">
           <p className="project4-article__text">
             It includes strategy, values, principles, the overall visual logic,
-            the style of images and graphic elements, and typography—a set of
+            the style of images and graphic elements, and typography — a set of
             fonts and the system for their use.
           </p>
         </section>
@@ -164,23 +164,18 @@ const Project3 = () => {
       </div>
       <div className="project-gallery">
         <img
-          className="project-gallery__img"
-          src={galleryItem7}
-          alt=""
-          width="100%"
-          height="100%"
-        />
-        <img
-          className="project-gallery__img"
+          className="project-gallery__img item_horizontal"
           src={galleryItem8}
           alt=""
           width="100%"
           height="100%"
         />
+        
       </div>
-      <div className="project-article">
-        <section className="project-article__item2">
-          <p>
+      <div className="project3-article">
+        <section className="project4-article__item1">
+        <h6 className="project-article__title">SB Sans Display</h6>
+          <p className="project4-article__text">
             The Display range of typefaces has been specifically designed for
             use in headlines and messages set in large point sizes.
             Additionally, SB Sans Display can be used in lengthy texts printed
@@ -190,9 +185,18 @@ const Project3 = () => {
           </p>
         </section>
       </div>
-      <div className="project-gallery__logo">
+      <div className="project-gallery">
+      <img
+          className="project-gallery__img item_horizontal"
+          src={galleryItem7}
+          alt=""
+          width="100%"
+          height="100%"
+        />
+        
+     
         <img
-          className="project-gallery__img"
+          className="project-gallery__img item_horizontal"
           src={galleryItem9}
           alt=""
           width="100%"
