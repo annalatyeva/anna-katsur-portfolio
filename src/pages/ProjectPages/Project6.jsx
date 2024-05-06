@@ -6,12 +6,10 @@ import ReactPlayer from "react-player";
 import galleryItem from "../../assets/images/project6-pic1.png";
 import galleryItem2 from "../../assets/images/project6-pic2.png";
 import galleryItem3 from "../../assets/images/project6-pic3.png";
-import galleryItem4 from "../../assets/images/project6-pic4.png";
 import galleryItem5 from "../../assets/images/project6-pic5.png";
 import galleryItem6 from "../../assets/images/project6-pic6.png";
 import galleryItem7 from "../../assets/images/project6-pic7.png";
 import galleryItem8 from "../../assets/images/project6-pic8.png";
-import galleryItem9 from "../../assets/images/project6-pic9.png";
 
 const Project6 = () => {
   useEffect(() => {
@@ -79,28 +77,14 @@ const Project6 = () => {
       </div>
       <div className="project-gallery4">
         <img
-          className="project-gallery__img item_horizontal"
-          src={galleryItem9}
-          alt=""
-          width="100%"
-          height="100%"
-        />
-        <img
-          className="project-gallery__img item_vertical"
-          src={galleryItem4}
-          alt=""
-          width="100%"
-          height="100%"
-        />
-        <img
-          className="project-gallery__img item_vertical"
+          className="project-gallery__img  item_horizontal"
           src={galleryItem5}
           alt=""
           width="100%"
           height="100%"
         />
         <img
-          className="project-gallery__img item_horizontal"
+          className="project-gallery__img  item_horizontal"
           src={galleryItem6}
           alt=""
           width="100%"
