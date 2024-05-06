@@ -13,8 +13,9 @@ import galleryItem8 from "../../assets/images/project3-pic8.png";
 import galleryItem9 from "../../assets/images/project3-pic9.png";
 import galleryItem10 from "../../assets/images/project3-pic10.png";
 import galleryItem11 from "../../assets/images/project3-pic11.png";
-import galleryItem12 from "../../assets/images/project3-pic12.png";
+import galleryItem12 from "../../assets/images/project3-pic12-1.png";
 import galleryItem13 from "../../assets/images/project3-pic13.png";
+import galleryItem14 from "../../assets/images/project3-pic12-2.png";
 
 const team = [
   { role: "Art Director", name: "Anna Katsur" },
@@ -226,24 +227,31 @@ const Project3 = () => {
           <h6 className="project-article__title"> SB Serif Display</h6>
         </section>
       </div>
-      <div className="project-gallery">
+      <div className="project-gallery5">
         <img
-          className="project-gallery__img item_horizontal"
+          className="project-gallery__img item_horizontal2"
           src={galleryItem11}
           alt=""
           width="100%"
           height="100%"
         />
         <img
-          className="project-gallery__img item_horizontal"
+          className="project-gallery__img"
           src={galleryItem12}
+          alt=""
+          width="100%"
+          height="100%"
+        />
+                <img
+          className="project-gallery__img"
+          src={galleryItem14}
           alt=""
           width="100%"
           height="100%"
         />
 
         <img
-          className="project-gallery__img item_horizontal"
+          className="project-gallery__img item_horizontal2"
           src={galleryItem13}
           alt=""
           width="100%"
