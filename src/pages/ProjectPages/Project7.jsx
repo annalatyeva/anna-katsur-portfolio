@@ -42,9 +42,7 @@ const Project7 = () => {
 		  <h6 className="project-article__title">Design System</h6>
           <p>We built Sber's entire design system around five elements. Each of these elements is designed with a certain flexibility and is used in the communications of all the sub-brands and the master brand of the ecosystem.
           </p>
-		  <h6 className="project-article__title">Logo</h6>
-          <p>The most recognizable and strong asset of the ecosystem. It has become the constant in all elements of the design system.
-          </p>
+
         </section>
       </div>
 	  <div className="project-gallery__logo">
@@ -58,7 +56,11 @@ const Project7 = () => {
       </div>
 	  <div className="project-article">
         <section className="project4-article__item1">
-		<p className="project4-article__text">For example, the visual communications of sub-brands operating at a universal service level will be executed in bright colors and gradients, while those in the premium segment will use darker tones and, in some cases, combinations with black. For those companies operating at a personal level, white will be the primary color.
+        <p className="project-article__subtitle">Logo</p>
+          <p>The most recognizable and strong asset of the ecosystem. It has become the constant in all elements of the design system.
+          </p>
+          <p className="project-article__subtitle"></p>
+		    <p className="project4-article__text">For example, the visual communications of sub-brands operating at a universal service level will be executed in bright colors and gradients, while those in the premium segment will use darker tones and, in some cases, combinations with black. For those companies operating at a personal level, white will be the primary color.
           </p>
           <p className="project-article__subtitle">Colors and gradients</p>
           <p className="project4-article__text">have helped to differentiate the sub-brands from one another, depending on the style and level of the business offering.
