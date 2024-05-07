@@ -45,11 +45,11 @@
    ```sh
    git clone https://github.com/annalatyeva/anna-katsur-portfolio
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Start the development server
+3. Start the development server
    ```js
    npm start
    ```
