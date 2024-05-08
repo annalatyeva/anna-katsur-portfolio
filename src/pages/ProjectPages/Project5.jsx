@@ -44,6 +44,7 @@ const Project5 = () => {
           className="project-gallery__item"
           playing={true}
           loop={true}
+          playsInline={true}
           width="100%"
           height="100%"
         />
@@ -72,6 +73,7 @@ const Project5 = () => {
             className="project-gallery__item"
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -82,6 +84,7 @@ const Project5 = () => {
             className="project-gallery__item"
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -103,6 +106,7 @@ const Project5 = () => {
             className="project-gallery__item"
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -114,6 +118,7 @@ const Project5 = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -125,6 +130,7 @@ const Project5 = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -156,6 +162,7 @@ const Project5 = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -167,6 +174,7 @@ const Project5 = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -190,6 +198,7 @@ const Project5 = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -201,6 +210,7 @@ const Project5 = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />
@@ -226,6 +236,7 @@ const Project5 = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsInline={true}
             width="100%"
             height="100%"
           />

@@ -36,7 +36,7 @@ const Project2 = () => {
 			</div>
 			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal b8">
-					<ReactPlayer url="https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsInline={true} width="100%" height="100%" />
 				</div>
 			</div>
 			<div className="project-article">
@@ -51,7 +51,7 @@ const Project2 = () => {
 					<img className="project-gallery__item" src={galleryItem2} alt="" width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper b9">
-					<ReactPlayer url="https://player.vimeo.com/video/617935917?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/617935917?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} playsInline={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper">
 					<img className="project-gallery__item" src={galleryItem3} alt="" width="100%" height="100%" />
@@ -65,10 +65,10 @@ const Project2 = () => {
 			</div>
 			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal b10">
-					<ReactPlayer url="https://player.vimeo.com/video/624512767?h=98467760ff&badge=0&autopause=0&quality=1080p&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/624512767?h=98467760ff&badge=0&autopause=0&quality=1080p&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} playsInline={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b11">
-					<ReactPlayer url="https://player.vimeo.com/video/624616937?h=6497567e37&badge=0&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/624616937?h=6497567e37&badge=0&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} playsInline={true} width="100%" height="100%" />
 				</div>
 			</div>
 			<div className="project-gallery4">
