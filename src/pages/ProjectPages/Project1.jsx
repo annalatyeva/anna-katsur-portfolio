@@ -42,13 +42,13 @@ const Project = (props) => {
 			</div>
 			<div className="project-gallery4">
 				<div className="project-gallery__wrapper item_horizontal b1">
-					<ReactPlayer url="https://player.vimeo.com/video/765743651?h=25a2d79aa1&badge=0&background=1&quality=2160&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/765743651?h=25a2d79aa1&badge=0&background=1&quality=2160&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper">
 					<img className="project-gallery__item" src={galleryItem} alt="" width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper b2">
-					<ReactPlayer url="https://player.vimeo.com/video/769909942?h=45957d639e&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/769909942?h=45957d639e&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
 				</div>
 			</div>
 			<div className="project-article">
@@ -61,21 +61,21 @@ const Project = (props) => {
 			</div>
 			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal b3">
-					<ReactPlayer url="https://player.vimeo.com/video/765744230?h=83b7e75b49&badge=0&background=1&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/765744230?h=83b7e75b49&badge=0&background=1&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b4">
-					<ReactPlayer url="https://player.vimeo.com/video/759810575?h=0a8c0683d8&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/759810575?h=0a8c0683d8&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b5">
-					<ReactPlayer url="https://player.vimeo.com/video/765770051?h=b6b4918afa&badge=0&background=1&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/765770051?h=b6b4918afa&badge=0&background=1&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b6">
-					<ReactPlayer url="https://player.vimeo.com/video/769945605?h=93f114d52f&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/769945605?h=93f114d52f&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
 				</div>
 			</div>
 			<div className="project-gallery3">
 				<div className="project-gallery__wrapper  project-gallery3__item b7">
-					<ReactPlayer url="https://player.vimeo.com/video/765744089?h=f78bb2ffad&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+					<ReactPlayer url="https://player.vimeo.com/video/765744089?h=f78bb2ffad&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
 				</div>
 				<div className="project-gallery3__wrapper">
 					<div className="project-gallery__wrapper project-gallery3__item">
