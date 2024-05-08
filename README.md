@@ -29,7 +29,7 @@
 - React Router DOM - v6.23.0
 - - Was used to display and navigate between DOM elements by clicking on a link
 - React Player - v2.16.0
-- - Was used to embed video and make them responsive
+- - Was used to quickly load videos from vimeo and embed them
 - Sass - v1.75.0
 - - Was used to allows using the Sass preprocessor for more convenient and efficient styling
 - Classnames - v2.5.1
@@ -45,11 +45,11 @@
    ```sh
    git clone https://github.com/annalatyeva/anna-katsur-portfolio
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Start the development server
+3. Start the development server
    ```js
    npm start
    ```
@@ -69,8 +69,8 @@ Goncharova Anastasia - Frontend Developer, Portfolio page
 - gonchar.stacy@gmail.com
 
 Daria Fadeeva - Frontend-developer, Main page
-https://github.com/Dari-Dari
-me@daria-fadeeva.ru
+- https://github.com/Dari-Dari
+- me@daria-fadeeva.ru
 
 Katsiaryna Pilipets - Frontend Developer, About me, Footer
 - https://github.com/KatsiarynaPilipets

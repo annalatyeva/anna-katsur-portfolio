@@ -3,8 +3,8 @@ import "./video-posters.scss";
 import ReactPlayer from "react-player";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import galleryItem from "../../assets/images/project5-pic1.png";
-import galleryItem2 from "../../assets/images/project5-pic2.png";
+import galleryItem from "../../assets/images/project5-pic0.png";
+//import galleryItem2 from "../../assets/images/project5-pic2.png";
 import galleryItem3 from "../../assets/images/project5-pic3.png";
 
 const team = [
@@ -215,20 +215,11 @@ const Project5 = () => {
             height="100%"
           />
         </div>
-        <img
-          className="project-gallery__item"
-          src={galleryItem}
-          alt=""
-          width="100%"
-          height="100%"
-        />
-        <img
-          className="project-gallery__item"
-          src={galleryItem2}
-          alt=""
-          width="100%"
-          height="100%"
-        />
+				<div className="project-gallery_wrapper item_horizontal2">
+						<img className="project-gallery3_item" src={galleryItem} alt="" width="100%" height="100%" />
+				</div>
+			</div>
+      <div className="project-gallery3">
         <div className="project-gallery__wrapper item_horizontal2 b22">
           <ReactPlayer
             url="https://player.vimeo.com/video/862081255?h=c33522dcd3&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479"

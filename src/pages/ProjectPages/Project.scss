@@ -73,12 +73,22 @@
   width: 100%;
   height: auto;
 }
+
+.item_horizontal4 {
+  flex: 1;
+  object-fit: cover;
+  height: auto;
+}
+
 .item_vertical {
   grid-column: span 1;
   width: 100%;
   height: auto;
 }
-
+.item_vertical2 {
+  width: 40%;
+  height: auto;
+}
 .project-gallery2 {
   display: grid;
   gap: 20px;
@@ -130,14 +140,21 @@
   gap: 20px;
 }
 
+.project-gallery6 {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
 //////////////////////////////////////////////////article block//////////////////////////////////////////////////
 .project-article {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 80px 40px;
+  padding: 80px 0;
 
   .project-article__item1 {
+    padding: 10px 0;
     font-size: 36px;
     font-weight: 500;
     line-height: 40px;
@@ -187,7 +204,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 100px 40px 40px;
+  padding: 100px 0 40px;
   .project-article__item1 {
     font-size: 36px;
     font-weight: 500;
@@ -280,7 +297,7 @@
 .project-switch__title {
   padding: 40px 22.5px;
   font-size: 36px;
-  max-width: 40%;
+  max-width: 50%;
   font-weight: 500;
   line-height: 36px;
   text-align: left;
@@ -314,16 +331,16 @@
     }
   }
   .project3-article {
-    padding: 40px 20px 20px;
+    padding: 40px 0 20px;
     .project-article__item1 {
       font-size: 24px;
-      line-height: 32.2px;
+      line-height: 27px;
       max-width: 60%;
     }
 
     .project4-article__item1 {
-      font-size: 24px;
-      line-height: 31.25px;
+      font-size: 20px;
+      line-height: 22px;
       padding-top: 20px;
       max-width: 60%;
       .project4-article__text {
@@ -342,8 +359,8 @@
 
     .project-article__item2 {
       max-width: 60%;
-      font-size: 16px;
-      line-height: 21.25px;
+      font-size: 20px;
+      line-height: 27px;
       padding-top: 20px;
       p {
         padding: 10px 0;
@@ -351,7 +368,7 @@
     }
   }
   .project-article {
-    padding: 40px 20px;
+    padding: 40px 0;
 
     .project-article__item1 {
       font-size: 24px;
@@ -360,8 +377,8 @@
     }
 
     .project4-article__item1 {
-      font-size: 24px;
-      line-height: 31.25px;
+      font-size: 20px;
+      line-height: 27px;
       padding-top: 20px;
       max-width: 60%;
       .project4-article__text {
@@ -380,8 +397,8 @@
 
     .project-article__item2 {
       max-width: 60%;
-      font-size: 16px;
-      line-height: 21.25px;
+      font-size: 20px;
+      line-height: 27px;
       padding-top: 20px;
       p {
         padding: 10px 0;
@@ -438,11 +455,11 @@
     }
   }
   .project3-article {
-    padding: 20px 10px 10px;
+    padding: 20px 0 10px;
     .project-article__item1 {
       max-width: 70%;
       font-size: 20px;
-      line-height: 22.2px;
+      line-height: 24px;
     }
 
     .project4-article__item1 {
@@ -473,11 +490,11 @@
     }
   }
   .project-article {
-    padding: 20px 10px;
+    padding: 20px 0;
     .project-article__item1 {
       max-width: 70%;
       font-size: 20px;
-      line-height: 22.2px;
+      line-height: 24px;
     }
 
     .project4-article__item1 {
@@ -500,7 +517,7 @@
     .project-article__item2 {
       max-width: 70%;
       font-size: 18px;
-      line-height: 18px;
+      line-height: 21.25px;
       padding-top: 10px;
       p {
         padding: 5px 0;
