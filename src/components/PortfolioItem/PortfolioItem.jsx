@@ -49,7 +49,6 @@ const PortfolioItem = ({ link, number, description, format, cover, gif }) => {
           <p className={`${style.number_video} ${style.number}`}>{number}</p>
         </div>
       )}
-
       <p className={style.description}>{description}</p>
     </div>
   );
