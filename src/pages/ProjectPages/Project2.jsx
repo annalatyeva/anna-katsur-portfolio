@@ -1,8 +1,6 @@
 import "./Project.scss";
-import "./video-posters.scss";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
-import ReactPlayer from "react-player";
 import galleryItem from "../../assets/images/project2-pic1.jpg";
 import galleryItem2 from "../../assets/images/project2-pic2.jpg";
 import galleryItem3 from "../../assets/images/project2-pic3.jpg";
@@ -11,6 +9,16 @@ import galleryItem6 from "../../assets/images/project2-pic6.png";
 import galleryItem7 from "../../assets/images/project2-pic7.png";
 import galleryItem8 from "../../assets/images/project2-pic8.png";
 import galleryItem9 from "../../assets/images/project2-pic9.png";
+
+import video1 from "../../assets/video/seasons.mp4";
+import video2 from "../../assets/video/project2-v2.mp4";
+import video3 from "../../assets/video/project2-v3.mp4";
+import video4 from "../../assets/video/project2-v4.mp4";
+
+import poster1 from "../../assets/images/posters/b8.png";
+import poster2 from "../../assets/images/posters/b9.png";
+import poster3 from "../../assets/images/posters/b10.png";
+import poster4 from "../../assets/images/posters/b11.png";
 
 const team = [
 	{role: "Design Director", name: "Anna Katsur"},
@@ -36,7 +44,19 @@ const Project2 = () => {
 			</div>
 			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal b8">
-					<ReactPlayer url="https://player.vimeo.com/video/617935849?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster1}
+						width="100%"
+						height="100%">
+						<source
+							src={video1}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-article">
@@ -45,16 +65,46 @@ const Project2 = () => {
 			</div>
 			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal">
-					<img className="project-gallery__item" src={galleryItem} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery__item"
+						src={galleryItem}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 				<div className="project-gallery__wrapper item_horizontal">
-					<img className="project-gallery__item" src={galleryItem2} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery__item"
+						src={galleryItem2}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 				<div className="project-gallery__wrapper b9">
-					<ReactPlayer url="https://player.vimeo.com/video/617935917?h=6105373d35&badge=0&quality=1080p&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster2}
+						width="100%"
+						height="100%">
+						<source
+							src={video2}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery__wrapper">
-					<img className="project-gallery__item" src={galleryItem3} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery__item"
+						src={galleryItem3}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 			</div>
 			<div className="project-article">
@@ -65,27 +115,81 @@ const Project2 = () => {
 			</div>
 			<div className="project-gallery2">
 				<div className="project-gallery__wrapper item_horizontal b10">
-					<ReactPlayer url="https://player.vimeo.com/video/624512767?h=98467760ff&badge=0&autopause=0&quality=1080p&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster3}
+						width="100%"
+						height="100%">
+						<source
+							src={video3}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b11">
-					<ReactPlayer url="https://player.vimeo.com/video/624616937?h=6497567e37&badge=0&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} muted={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster4}
+						width="100%"
+						height="100%">
+						<source
+							src={video4}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-gallery4">
 				<div className="item_vertical">
-					<img className="project-gallery4__item" src={galleryItem9} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery4__item"
+						src={galleryItem9}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 				<div className="item_vertical">
-					<img className="project-gallery4__item" src={galleryItem5} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery4__item"
+						src={galleryItem5}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 				<div className="item_vertical">
-					<img className="project-gallery4__item" src={galleryItem6} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery4__item"
+						src={galleryItem6}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 				<div className="item_vertical">
-					<img className="project-gallery4__item" src={galleryItem7} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery4__item"
+						src={galleryItem7}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 				<div className="item_horizontal ">
-					<img className="project-gallery4__item" src={galleryItem8} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery4__item"
+						src={galleryItem8}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 			</div>
 			<div className="project-team">
@@ -102,7 +206,9 @@ const Project2 = () => {
 				</div>
 			</div>
 
-			<Link to="/project03" className="project-switch__link">
+			<Link
+				to="/project03"
+				className="project-switch__link">
 				<div className="project-switch">
 					<h4 className="project-switch__title">DEVELOPMENT OF SBER'S CORPORATE TYPEFACE SYSTEM</h4>
 					<p className="project-switch__number">/ 03</p>

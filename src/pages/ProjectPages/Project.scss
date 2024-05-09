@@ -41,19 +41,19 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.project-gallery__wrapper {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-  .project-gallery__item {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
-}
+// .project-gallery__wrapper {
+//   overflow: hidden;
+//   // padding-bottom: 56.25%;
+//   position: relative;
+//   height: 0;
+//   .project-gallery__item {
+//     left: 0;
+//     top: 0;
+//     height: 100%;
+//     width: 100%;
+//     position: absolute;
+//   }
+// }
 
 .item_horizontal {
   grid-column: 1 / span 2;

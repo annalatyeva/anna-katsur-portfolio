@@ -1,11 +1,33 @@
 import "./Project.scss";
-import "./video-posters.scss";
-import ReactPlayer from "react-player";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
 import galleryItem from "../../assets/images/project5-pic0.png";
 //import galleryItem2 from "../../assets/images/project5-pic2.png";
 import galleryItem3 from "../../assets/images/project5-pic3.png";
+
+import video1 from "../../assets/video/project5-v1.mp4";
+import video2 from "../../assets/video/yandex.mp4";
+import video3 from "../../assets/video/project5-v3.mp4";
+import video4 from "../../assets/video/project5-v4.mp4";
+import video5 from "../../assets/video/project5-v5.mp4";
+import video6 from "../../assets/video/project5-v6.mp4";
+import video7 from "../../assets/video/project5-v7.mp4";
+import video8 from "../../assets/video/project5-v8.mp4";
+import video9 from "../../assets/video/project5-v9.mp4";
+import video10 from "../../assets/video/project5-v10.mp4";
+import video11 from "../../assets/video/project5-v11.mp4";
+
+import poster1 from "../../assets/images/posters/b12.png";
+import poster2 from "../../assets/images/posters/b13.png";
+import poster3 from "../../assets/images/posters/b14.png";
+import poster4 from "../../assets/images/posters/b15.png";
+import poster5 from "../../assets/images/posters/b16.png";
+import poster6 from "../../assets/images/posters/b17.png";
+import poster7 from "../../assets/images/posters/b18.png";
+import poster8 from "../../assets/images/posters/b19.png";
+import poster9 from "../../assets/images/posters/b20.png";
+import poster10 from "../../assets/images/posters/b21.png";
+import poster11 from "../../assets/images/posters/b22.png";
 
 const team = [
 	{role: "Design Director", name: "Anna Katsur"},
@@ -37,7 +59,19 @@ const Project5 = () => {
 				<p className="project-header__number">/ 05</p>
 			</div>
 			<div className="project-gallery__wrapper b12">
-				<ReactPlayer url="https://player.vimeo.com/video/862109483?h=6fd26ffd5d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+				<video
+					autoPlay
+					loop
+					playsInline
+					muted
+					poster={poster1}
+					width="100%"
+					height="100%">
+					<source
+						src={video1}
+						type="video/mp4"
+					/>
+				</video>
 			</div>
 			<div className="project-article">
 				<section className="project-article__item1">Yandex for Developers (YfD) is a platform for networking and professional development in the IT industry. Its new flexible brand design system is based on typography that adapts common programming language syntax rules.</section>
@@ -45,10 +79,34 @@ const Project5 = () => {
 			</div>
 			<div className="project-gallery">
 				<div className="project-gallery__wrapper item_horizontal b13">
-					<ReactPlayer url="https://player.vimeo.com/video/870069354?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster2}
+						width="100%"
+						height="100%">
+						<source
+							src={video2}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b14">
-					<ReactPlayer url="https://player.vimeo.com/video/862075633?h=91642a8795&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster3}
+						width="100%"
+						height="100%">
+						<source
+							src={video3}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-article">
@@ -56,13 +114,49 @@ const Project5 = () => {
 			</div>
 			<div className="project-gallery">
 				<div className="project-gallery__wrapper item_vertical b15">
-					<ReactPlayer url="https://player.vimeo.com/video/870061329?badge=0&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster4}
+						width="100%"
+						height="100%">
+						<source
+							src={video4}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery__wrapper item_vertical b16">
-					<ReactPlayer url="https://player.vimeo.com/video/862318538?h=4ea0f25798&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" muted={true} playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster5}
+						width="100%"
+						height="100%">
+						<source
+							src={video5}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b17">
-					<ReactPlayer url="https://player.vimeo.com/video/862129417?h=42ab2fd2e8&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" muted={true} playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster6}
+						width="100%"
+						height="100%">
+						<source
+							src={video6}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-article">
@@ -70,13 +164,43 @@ const Project5 = () => {
 			</div>
 			<div className="project-gallery">
 				<div className="project-gallery__wrapper item_horizontal">
-					<img className="project-gallery__item" src={galleryItem3} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery__item"
+						src={galleryItem3}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b18">
-					<ReactPlayer url="https://player.vimeo.com/video/871822571?h=ad9f8e895c&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" muted={true} playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster7}
+						width="100%"
+						height="100%">
+						<source
+							src={video7}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery__wrapper item_horizontal b19">
-					<ReactPlayer url="https://player.vimeo.com/video/871804706?h=c56d51ec06&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" muted={true} playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster8}
+						width="100%"
+						height="100%">
+						<source
+							src={video8}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-article">
@@ -84,18 +208,60 @@ const Project5 = () => {
 			</div>
 			<div className="project-gallery5">
 				<div className="project-gallery__wrapper item_horizontal2 b20">
-					<ReactPlayer url="https://player.vimeo.com/video/862118913?h=0de10078a4&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" muted={true} playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster9}
+						width="100%"
+						height="100%">
+						<source
+							src={video9}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery__wrapper  item_horizontal2 b21">
-					<ReactPlayer url="https://player.vimeo.com/video/871822600?h=e8494aa47d&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" muted={true} playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster10}
+						width="100%"
+						height="100%">
+						<source
+							src={video10}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery_wrapper item_horizontal2">
-					<img className="project-gallery3_item" src={galleryItem} alt="" width="100%" height="100%" />
+					<img
+						className="project-gallery3_item"
+						src={galleryItem}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 			</div>
 			<div className="project-gallery3">
 				<div className="project-gallery__wrapper item_horizontal2 b22">
-					<ReactPlayer url="https://player.vimeo.com/video/862081255?h=c33522dcd3&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" muted={true} playing={true} loop={true} playsinline={true} width="100%" height="100%" />
+					<video
+						autoPlay
+						loop
+						playsInline
+						muted
+						poster={poster11}
+						width="100%"
+						height="100%">
+						<source
+							src={video11}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-team">
@@ -111,7 +277,9 @@ const Project5 = () => {
 					</div>
 				</div>
 			</div>
-			<Link to="/project06" className="project-switch__link">
+			<Link
+				to="/project06"
+				className="project-switch__link">
 				<div className="project-switch">
 					<h4 className="project-switch__title">CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND</h4>
 					<p className="project-switch__number">/ 06</p>
