@@ -5,6 +5,10 @@
   font-family: $dmsans;
   font-style: normal;
   padding: 60px 40px 100px;
+  img {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+  }
 }
 
 //////////////////////////////////////////////////header block//////////////////////////////////////////////////
