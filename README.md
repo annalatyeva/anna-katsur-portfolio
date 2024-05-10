@@ -28,8 +28,6 @@
 - React DOM - v18.2.0
 - React Router DOM - v6.23.0
 - - Was used to display and navigate between DOM elements by clicking on a link
-- React Player - v2.16.0
-- - Was used to embed video and make them responsive
 - Sass - v1.75.0
 - - Was used to allows using the Sass preprocessor for more convenient and efficient styling
 - Classnames - v2.5.1
