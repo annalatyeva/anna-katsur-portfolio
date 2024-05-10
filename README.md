@@ -11,7 +11,7 @@
 ## About The Project
 
 <div>
-    <img src="https://github.com/annalatyeva/screenshots/blob/main/main.png" alt="Logo" width="80%" >
+    <img src="https://github.com/annalatyeva/screenshots/blob/main/katsur-portfolio-main.png" alt="Logo" width="80%" >
 </div>
 
 ### Features
