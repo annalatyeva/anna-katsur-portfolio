@@ -1,8 +1,9 @@
 @import "../../assets/styles/variables.scss";
 
 .main {
-  margin: 5% 0 0 13%;
+  margin: 5% 0 0 0;
   display: flex;
+  justify-content: center;
   align-items: center;
 
   .main_images {
@@ -144,11 +145,30 @@
   }
 
   .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .main_title {
       max-width: 700px;
       font-size: 52px;
-      margin: 0 auto;
-      padding: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1981px) {
+  .main_mobile {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0 0 0;
+
+    .main_title {
+      max-width: 900px;
+      font-size: 64px;
     }
   }
 }
