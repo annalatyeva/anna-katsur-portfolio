@@ -1,6 +1,7 @@
 import "./Project.scss";
 import {useEffect} from "react";
 import {Link} from "react-router-dom";
+import videoAttributes from "../../components/constants/videoAttributes.js";
 
 import galleryItem from "../../assets/images/project-pic1.jpg";
 import galleryItem2 from "../../assets/images/project-pic2.jpg";
@@ -55,15 +56,10 @@ const Project = (props) => {
 				<p className="project-header__number">/ 01</p>
 			</div>
 			<div className="project-gallery4">
-				<div className="project-gallery__wrapper item_horizontal b1">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster1}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster1}>
 						<source
 							src={video1}
 							type="video/mp4"
@@ -75,19 +71,15 @@ const Project = (props) => {
 						className="project-gallery__item"
 						src={galleryItem}
 						alt=""
+						pip="false"
 						width="100%"
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper b2">
+				<div className="project-gallery__wrapper">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster2}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster2}>
 						<source
 							src={video2}
 							type="video/mp4"
@@ -104,60 +96,40 @@ const Project = (props) => {
 				</section>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal b3">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster3}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster3}>
 						<source
 							src={video3}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b4">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster4}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster4}>
 						<source
 							src={video4}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b5">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster5}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster5}>
 						<source
 							src={video5}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b6">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster6}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster6}>
 						<source
 							src={video6}
 							type="video/mp4"
@@ -166,15 +138,10 @@ const Project = (props) => {
 				</div>
 			</div>
 			<div className="project-gallery3">
-				<div className="project-gallery__wrapper  project-gallery3__item b7">
+				<div className="project-gallery__wrapper  project-gallery3__item">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster7}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster7}>
 						<source
 							src={video7}
 							type="video/mp4"

@@ -1,6 +1,8 @@
 import "./Project.scss";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
+import videoAttributes from "../../components/constants/videoAttributes.js";
+
 import galleryItem from "../../assets/images/project6-pic1.png";
 import galleryItem2 from "../../assets/images/project6-pic2.png";
 import galleryItem3 from "../../assets/images/project6-pic3.png";
@@ -23,15 +25,10 @@ const Project6 = () => {
 				<h2 className="project5-header__title">CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND</h2>
 				<p className="project-header__number">/06</p>
 			</div>
-			<div className="project-gallery__wrapper b23">
+			<div className="project-gallery__wrapper">
 				<video
-					autoPlay
-					loop
-					playsInline
-					muted
-					poster={poster1}
-					width="100%"
-					height="100%">
+					{...videoAttributes}
+					poster={poster1}>
 					<source
 						src={video1}
 						type="video/mp4"

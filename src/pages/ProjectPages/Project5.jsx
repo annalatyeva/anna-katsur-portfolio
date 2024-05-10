@@ -1,6 +1,8 @@
 import "./Project.scss";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
+import videoAttributes from "../../components/constants/videoAttributes.js";
+
 import galleryItem from "../../assets/images/project5-pic0.png";
 //import galleryItem2 from "../../assets/images/project5-pic2.png";
 import galleryItem3 from "../../assets/images/project5-pic3.png";
@@ -58,15 +60,10 @@ const Project5 = () => {
 				<h2 className="project5-header__title">CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND</h2>
 				<p className="project-header__number">/ 05</p>
 			</div>
-			<div className="project-gallery__wrapper b12">
+			<div className="project-gallery__wrapper">
 				<video
-					autoPlay
-					loop
-					playsInline
-					muted
-					poster={poster1}
-					width="100%"
-					height="100%">
+					{...videoAttributes}
+					poster={poster1}>
 					<source
 						src={video1}
 						type="video/mp4"
@@ -78,30 +75,20 @@ const Project5 = () => {
 				<section className="project-article__item2">Events across YfD are articulated through a custom generator of motion and static graphics, producing unique visuals for each type, from conference graphics to meetup 3D objects and casual event stickers, all complemented by a bright and diverse color palette. The consistent typography, marked subtitles, and logo ending in an asterisk-slash combo emphasize Yandex's digital flair and color diversity, seamlessly fitting both digital and print media.</section>
 			</div>
 			<div className="project-gallery">
-				<div className="project-gallery__wrapper item_horizontal b13">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster2}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster2}>
 						<source
 							src={video2}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b14">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster3}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster3}>
 						<source
 							src={video3}
 							type="video/mp4"
@@ -113,45 +100,30 @@ const Project5 = () => {
 				<section className="project-article__item2">Different YfD sections are segmented with distinctive visual features. A custom generative graphic tool is created for conferences. For meetups, the principle of creating abstract 3D objects is developed. Playful stickers correspond with the tone and character of less formal events.</section>
 			</div>
 			<div className="project-gallery">
-				<div className="project-gallery__wrapper item_vertical b15">
+				<div className="project-gallery__wrapper item_vertical">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster4}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster4}>
 						<source
 							src={video4}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_vertical b16">
+				<div className="project-gallery__wrapper item_vertical">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster5}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster5}>
 						<source
 							src={video5}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b17">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster6}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster6}>
 						<source
 							src={video6}
 							type="video/mp4"
@@ -172,30 +144,20 @@ const Project5 = () => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b18">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster7}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster7}>
 						<source
 							src={video7}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b19">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster8}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster8}>
 						<source
 							src={video8}
 							type="video/mp4"
@@ -207,30 +169,20 @@ const Project5 = () => {
 				<section className="project-article__item2">The fluid visual system is based on typography. It adapts the syntax of programming languages. Diverse product directions of YfD are highlighted by a generator of motion and static graphics, supported by a vibrant color palette. The identity seamlessly adjusts to digital and print media, from posters and landing pages to installations and merchandise.​​​​​​​</section>
 			</div>
 			<div className="project-gallery5">
-				<div className="project-gallery__wrapper item_horizontal2 b20">
+				<div className="project-gallery__wrapper item_horizontal2">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster9}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster9}>
 						<source
 							src={video9}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper  item_horizontal2 b21">
+				<div className="project-gallery__wrapper  item_horizontal2">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster10}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster10}>
 						<source
 							src={video10}
 							type="video/mp4"
@@ -248,15 +200,10 @@ const Project5 = () => {
 				</div>
 			</div>
 			<div className="project-gallery3">
-				<div className="project-gallery__wrapper item_horizontal2 b22">
+				<div className="project-gallery__wrapper item_horizontal2">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster11}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster11}>
 						<source
 							src={video11}
 							type="video/mp4"

@@ -1,6 +1,8 @@
 import "./Project.scss";
 import {Link} from "react-router-dom";
 import {useEffect} from "react";
+import videoAttributes from "../../components/constants/videoAttributes.js";
+
 import galleryItem from "../../assets/images/project2-pic1.jpg";
 import galleryItem2 from "../../assets/images/project2-pic2.jpg";
 import galleryItem3 from "../../assets/images/project2-pic3.jpg";
@@ -43,15 +45,10 @@ const Project2 = () => {
 				<p className="project-header__number">/ 02</p>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal b8">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster1}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster1}>
 						<source
 							src={video1}
 							type="video/mp4"
@@ -82,15 +79,10 @@ const Project2 = () => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper b9">
+				<div className="project-gallery__wrapper">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster2}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster2}>
 						<source
 							src={video2}
 							type="video/mp4"
@@ -114,30 +106,20 @@ const Project2 = () => {
 				</section>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal b10">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster3}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster3}>
 						<source
 							src={video3}
 							type="video/mp4"
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b11">
+				<div className="project-gallery__wrapper item_horizontal">
 					<video
-						autoPlay
-						loop
-						playsInline
-						muted
-						poster={poster4}
-						width="100%"
-						height="100%">
+						{...videoAttributes}
+						poster={poster4}>
 						<source
 							src={video4}
 							type="video/mp4"
