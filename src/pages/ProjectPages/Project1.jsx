@@ -56,7 +56,7 @@ const Project = (props) => {
 				<p className="project-header__number">/ 01</p>
 			</div>
 			<div className="project-gallery4">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster1}>
@@ -66,7 +66,7 @@ const Project = (props) => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper">
+				<div>
 					<img
 						className="project-gallery__item"
 						src={galleryItem}
@@ -76,7 +76,7 @@ const Project = (props) => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper">
+				<div>
 					<video
 						{...videoAttributes}
 						poster={poster2}>
@@ -96,7 +96,7 @@ const Project = (props) => {
 				</section>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster3}>
@@ -106,7 +106,7 @@ const Project = (props) => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster4}>
@@ -116,7 +116,7 @@ const Project = (props) => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster5}>
@@ -126,7 +126,7 @@ const Project = (props) => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster6}>
@@ -138,7 +138,7 @@ const Project = (props) => {
 				</div>
 			</div>
 			<div className="project-gallery3">
-				<div className="project-gallery__wrapper  project-gallery3__item">
+				<div className="project-gallery3__item">
 					<video
 						{...videoAttributes}
 						poster={poster7}>
@@ -149,7 +149,7 @@ const Project = (props) => {
 					</video>
 				</div>
 				<div className="project-gallery3__wrapper">
-					<div className="project-gallery__wrapper project-gallery3__item">
+					<div className="project-gallery3__item">
 						<img
 							className="project-gallery__item"
 							src={galleryItem3}
@@ -158,7 +158,7 @@ const Project = (props) => {
 							height="100%"
 						/>
 					</div>
-					<div className="project-gallery__wrapper project-gallery3__item">
+					<div className="project-gallery3__item">
 						<img
 							className="project-gallery__item"
 							src={galleryItem4}
@@ -170,7 +170,7 @@ const Project = (props) => {
 				</div>
 			</div>
 			<div className="project-gallery4">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<img
 						className="project-gallery__item"
 						src={galleryItem2}
@@ -179,7 +179,7 @@ const Project = (props) => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper item_vertical">
+				<div className="item_vertical">
 					<img
 						className="project-gallery__item"
 						src={galleryItem5}
@@ -188,7 +188,7 @@ const Project = (props) => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper item_vertical">
+				<div className="item_vertical">
 					<img
 						className="project-gallery__item"
 						src={galleryItem6}

@@ -60,7 +60,7 @@ const Project5 = () => {
 				<h2 className="project5-header__title">CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND</h2>
 				<p className="project-header__number">/ 05</p>
 			</div>
-			<div className="project-gallery__wrapper">
+			<div>
 				<video
 					{...videoAttributes}
 					poster={poster1}>
@@ -75,7 +75,7 @@ const Project5 = () => {
 				<section className="project-article__item2">Events across YfD are articulated through a custom generator of motion and static graphics, producing unique visuals for each type, from conference graphics to meetup 3D objects and casual event stickers, all complemented by a bright and diverse color palette. The consistent typography, marked subtitles, and logo ending in an asterisk-slash combo emphasize Yandex's digital flair and color diversity, seamlessly fitting both digital and print media.</section>
 			</div>
 			<div className="project-gallery">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster2}>
@@ -85,7 +85,7 @@ const Project5 = () => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster3}>
@@ -100,7 +100,7 @@ const Project5 = () => {
 				<section className="project-article__item2">Different YfD sections are segmented with distinctive visual features. A custom generative graphic tool is created for conferences. For meetups, the principle of creating abstract 3D objects is developed. Playful stickers correspond with the tone and character of less formal events.</section>
 			</div>
 			<div className="project-gallery">
-				<div className="project-gallery__wrapper item_vertical">
+				<div className="item_vertical">
 					<video
 						{...videoAttributes}
 						poster={poster4}>
@@ -110,7 +110,7 @@ const Project5 = () => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_vertical">
+				<div className="item_vertical">
 					<video
 						{...videoAttributes}
 						poster={poster5}>
@@ -120,7 +120,7 @@ const Project5 = () => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster6}>
@@ -135,7 +135,7 @@ const Project5 = () => {
 				<section className="project-article__item2">The custom palette combines Yandex's primary color with bright additional hues, curated to distinguish between the brand's diverse product lines and features. This highlights the brand's digital origin and adds a touch of versatility and vibrancy to its overall identity.​​​​​​​</section>
 			</div>
 			<div className="project-gallery">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<img
 						className="project-gallery__item"
 						src={galleryItem3}
@@ -144,7 +144,7 @@ const Project5 = () => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster7}>
@@ -154,7 +154,7 @@ const Project5 = () => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster8}>
@@ -169,7 +169,7 @@ const Project5 = () => {
 				<section className="project-article__item2">The fluid visual system is based on typography. It adapts the syntax of programming languages. Diverse product directions of YfD are highlighted by a generator of motion and static graphics, supported by a vibrant color palette. The identity seamlessly adjusts to digital and print media, from posters and landing pages to installations and merchandise.​​​​​​​</section>
 			</div>
 			<div className="project-gallery5">
-				<div className="project-gallery__wrapper item_horizontal2">
+				<div className="item_horizontal2">
 					<video
 						{...videoAttributes}
 						poster={poster9}>
@@ -179,7 +179,7 @@ const Project5 = () => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper  item_horizontal2">
+				<div className="item_horizontal2">
 					<video
 						{...videoAttributes}
 						poster={poster10}>
@@ -200,7 +200,7 @@ const Project5 = () => {
 				</div>
 			</div>
 			<div className="project-gallery3">
-				<div className="project-gallery__wrapper item_horizontal2">
+				<div className="item_horizontal2">
 					<video
 						{...videoAttributes}
 						poster={poster11}>

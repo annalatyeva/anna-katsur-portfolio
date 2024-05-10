@@ -45,7 +45,7 @@ const Project2 = () => {
 				<p className="project-header__number">/ 02</p>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster1}>
@@ -61,7 +61,7 @@ const Project2 = () => {
 				<section className="project-article__item2">The series' visual identity is built around the idea of an elusive technological landscape and the people who are best able to perceive it, manipulate it, measure it and benefit from it. The Seasons experts are like the chosen ones of dystopian fiction who have been summoned to take part in a TV show to share their knowledge, but without making speculative predictions.</section>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<img
 						className="project-gallery__item"
 						src={galleryItem}
@@ -70,7 +70,7 @@ const Project2 = () => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<img
 						className="project-gallery__item"
 						src={galleryItem2}
@@ -79,7 +79,7 @@ const Project2 = () => {
 						height="100%"
 					/>
 				</div>
-				<div className="project-gallery__wrapper">
+				<div>
 					<video
 						{...videoAttributes}
 						poster={poster2}>
@@ -89,7 +89,7 @@ const Project2 = () => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper">
+				<div>
 					<img
 						className="project-gallery__item"
 						src={galleryItem3}
@@ -106,7 +106,7 @@ const Project2 = () => {
 				</section>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster3}>
@@ -116,7 +116,7 @@ const Project2 = () => {
 						/>
 					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal">
+				<div className="item_horizontal">
 					<video
 						{...videoAttributes}
 						poster={poster4}>

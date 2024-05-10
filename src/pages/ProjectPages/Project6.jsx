@@ -25,7 +25,7 @@ const Project6 = () => {
 				<h2 className="project5-header__title">CREATION OF A BRAND AND VISUAL IDENTITY FOR AN HR BRAND</h2>
 				<p className="project-header__number">/06</p>
 			</div>
-			<div className="project-gallery__wrapper">
+			<div>
 				<video
 					{...videoAttributes}
 					poster={poster1}>
