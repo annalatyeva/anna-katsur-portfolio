@@ -40,19 +40,6 @@ const Main = () => {
           <p>CREATIVE DIRECTOR AND ART DIRECTOR WITH 11 YEARS EXPERIENCE</p>
         </div>
       </div>
-
-      <div className="main_mobile">
-        <div className="main_title_mobile">
-          <p>CREATIVE DIRECTOR AND ART DIRECTOR WITH 11 YEARS EXPERIENCE</p>
-        </div>
-        <div className="main-images_mobile">
-          <img
-            src={images[currentImageIndex % images.length]}
-            alt={`img${(currentImageIndex % images.length) + 1}`}
-            className="main_images-item_mobile"
-          />
-        </div>
-      </div>
     </div>
   );
 };
