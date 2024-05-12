@@ -1,7 +1,7 @@
 import "./Project.scss";
-import "./video-posters.scss";
 import {useEffect} from "react";
-import ReactPlayer from "react-player";
+import {Link} from "react-router-dom";
+import videoAttributes from "../../components/constants/videoAttributes.js";
 
 import galleryItem from "../../assets/images/project-pic1.jpg";
 import galleryItem2 from "../../assets/images/project-pic2.jpg";
@@ -9,7 +9,22 @@ import galleryItem3 from "../../assets/images/project-pic3.jpg";
 import galleryItem4 from "../../assets/images/project-pic4.jpg";
 import galleryItem5 from "../../assets/images/project-pic5.jpg";
 import galleryItem6 from "../../assets/images/project-pic6.jpg";
-import {Link} from "react-router-dom";
+
+import video1 from "../../assets/video/yatalks.mp4";
+import video2 from "../../assets/video/project-v2.mp4";
+import video3 from "../../assets/video/project-v3.mp4";
+import video4 from "../../assets/video/project-v4.mp4";
+import video5 from "../../assets/video/project-v5.mp4";
+import video6 from "../../assets/video/project-v6.mp4";
+import video7 from "../../assets/video/project-v7.mp4";
+
+import poster1 from "../../assets/images/posters/b1.png";
+import poster2 from "../../assets/images/posters/b2.png";
+import poster3 from "../../assets/images/posters/b3.png";
+import poster4 from "../../assets/images/posters/b4.png";
+import poster5 from "../../assets/images/posters/b5.png";
+import poster6 from "../../assets/images/posters/b6.png";
+import poster7 from "../../assets/images/posters/b7.png";
 
 const team = [
 	{role: "Design Director", name: "Anna Katsur"},
@@ -41,14 +56,35 @@ const Project = (props) => {
 				<p className="project-header__number">/ 01</p>
 			</div>
 			<div className="project-gallery4">
-				<div className="project-gallery__wrapper item_horizontal b1">
-					<ReactPlayer url="https://player.vimeo.com/video/765743651?h=25a2d79aa1&badge=0&background=1&quality=2160&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+				<div className="item_horizontal">
+					<video
+						{...videoAttributes}
+						poster={poster1}>
+						<source
+							src={video1}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
-				<div className="project-gallery__wrapper">
-					<img className="project-gallery__item" src={galleryItem} alt="" width="100%" height="100%" />
+				<div>
+					<img
+						className="project-gallery__item"
+						src={galleryItem}
+						alt=""
+						pip="false"
+						width="100%"
+						height="100%"
+					/>
 				</div>
-				<div className="project-gallery__wrapper b2">
-					<ReactPlayer url="https://player.vimeo.com/video/769909942?h=45957d639e&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+				<div>
+					<video
+						{...videoAttributes}
+						poster={poster2}>
+						<source
+							src={video2}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-article">
@@ -60,41 +96,106 @@ const Project = (props) => {
 				</section>
 			</div>
 			<div className="project-gallery2">
-				<div className="project-gallery__wrapper item_horizontal b3">
-					<ReactPlayer url="https://player.vimeo.com/video/765744230?h=83b7e75b49&badge=0&background=1&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+				<div className="item_horizontal">
+					<video
+						{...videoAttributes}
+						poster={poster3}>
+						<source
+							src={video3}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b4">
-					<ReactPlayer url="https://player.vimeo.com/video/759810575?h=0a8c0683d8&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+				<div className="item_horizontal">
+					<video
+						{...videoAttributes}
+						poster={poster4}>
+						<source
+							src={video4}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b5">
-					<ReactPlayer url="https://player.vimeo.com/video/765770051?h=b6b4918afa&badge=0&background=1&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+				<div className="item_horizontal">
+					<video
+						{...videoAttributes}
+						poster={poster5}>
+						<source
+							src={video5}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
-				<div className="project-gallery__wrapper item_horizontal b6">
-					<ReactPlayer url="https://player.vimeo.com/video/769945605?h=93f114d52f&badge=0&background=1&quality=1080&autopause=0&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+				<div className="item_horizontal">
+					<video
+						{...videoAttributes}
+						poster={poster6}>
+						<source
+							src={video6}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 			</div>
 			<div className="project-gallery3">
-				<div className="project-gallery__wrapper  project-gallery3__item b7">
-					<ReactPlayer url="https://player.vimeo.com/video/765744089?h=f78bb2ffad&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&background=1&player_id=0&app_id=58479" className="project-gallery__item" playing={true} loop={true} width="100%" height="100%" />
+				<div className="project-gallery3__item">
+					<video
+						{...videoAttributes}
+						poster={poster7}>
+						<source
+							src={video7}
+							type="video/mp4"
+						/>
+					</video>
 				</div>
 				<div className="project-gallery3__wrapper">
-					<div className="project-gallery__wrapper project-gallery3__item">
-						<img className="project-gallery__item" src={galleryItem3} alt="" width="100%" height="100%" />
+					<div className="project-gallery3__item">
+						<img
+							className="project-gallery__item"
+							src={galleryItem3}
+							alt=""
+							width="100%"
+							height="100%"
+						/>
 					</div>
-					<div className="project-gallery__wrapper project-gallery3__item">
-						<img className="project-gallery__item" src={galleryItem4} alt="" width="100%" height="100%" />
+					<div className="project-gallery3__item">
+						<img
+							className="project-gallery__item"
+							src={galleryItem4}
+							alt=""
+							width="100%"
+							height="100%"
+						/>
 					</div>
 				</div>
 			</div>
 			<div className="project-gallery4">
-				<div className="project-gallery__wrapper item_horizontal">
-					<img className="project-gallery__item" src={galleryItem2} alt="" width="100%" height="100%" />
+				<div className="item_horizontal">
+					<img
+						className="project-gallery__item"
+						src={galleryItem2}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
-				<div className="project-gallery__wrapper item_vertical">
-					<img className="project-gallery__item" src={galleryItem5} alt="" width="100%" height="100%" />
+				<div className="item_vertical">
+					<img
+						className="project-gallery__item"
+						src={galleryItem5}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
-				<div className="project-gallery__wrapper item_vertical">
-					<img className="project-gallery__item" src={galleryItem6} alt="" width="100%" height="100%" />
+				<div className="item_vertical">
+					<img
+						className="project-gallery__item"
+						src={galleryItem6}
+						alt=""
+						width="100%"
+						height="100%"
+					/>
 				</div>
 			</div>
 			<div className="project-team">
@@ -110,7 +211,9 @@ const Project = (props) => {
 					</div>
 				</div>
 			</div>
-			<Link to="/project02" className="project-switch__link">
+			<Link
+				to="/project02"
+				className="project-switch__link">
 				<div className="project-switch">
 					<h4 className="project-switch__title">CONCEPT OF THE EVENT AND CREATIVE DIRECTION FOR SEASONS BRAND IDENTITY</h4>
 					<p className="project-switch__number">/ 02</p>
