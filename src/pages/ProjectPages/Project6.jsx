@@ -15,6 +15,19 @@ import video1 from "../../assets/video/project6-v1.mp4";
 
 import poster1 from "../../assets/images/posters/b23.png";
 
+const team = [
+	{role: "Art Director", name: "Sofa Karavaeva"},
+	{role: "Art Director", name: "Ivan Generalov"},
+	{role: "Illustration Art Director", name: "Lera Vaitsekhovskaya"},
+	{role: "Designer", name: "Lena Zolototrubova"},
+	{role: "Designer", name: "Aliya Karnaukhova"},
+	{role: "Producer", name: "Vova Lovtsov",},
+	{role: "Producer", name: "Sasha Sukhova"},
+	{role: "Сopywriter", name: "Ksyusha Kantsurova"},
+	{role: "Brand Manager", name: "Sonya Bakhmeteva"},
+	{role: "Head of Design and Brand Expert", name: "Anya Katsur"},
+];
+
 const Project6 = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -110,6 +123,19 @@ const Project6 = () => {
 					height="100%"
 				/>
 			</div>
+			<div className="project-team">
+        <h5 className="project-team__title">TEAM</h5>
+        <div className="project-team__container">
+          <div className="project-team__item">
+            {team.map((item) => (
+              <>
+                <p className="project-team__item_job">{item.role}</p>
+                <p className="project-team__item_name">{item.name}</p>
+              </>
+            ))}
+          </div>
+        </div>
+      </div>
 			<Link
 				to="/project07"
 				className="project-switch__link">
