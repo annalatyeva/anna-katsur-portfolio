@@ -7,7 +7,7 @@
    A website showcasing the personal brand of a branding and creative specialist tailored for UK audiences.
   </p>
 
-<h2 align="center"><a href="http://katsur-anna.com/">View site</a></h2>
+<h3 align="center"><a href="http://katsur-anna.com/">View site</a></h3>
 
 ## About The Project
 
