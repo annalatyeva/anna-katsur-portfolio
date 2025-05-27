@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anna-katsur-portfolio/static/css/main.bf92e834.css",
-    "main.js": "/anna-katsur-portfolio/static/js/main.26056c13.js",
+    "main.js": "/anna-katsur-portfolio/static/js/main.896bc872.js",
     "static/js/453.bbfee25a.chunk.js": "/anna-katsur-portfolio/static/js/453.bbfee25a.chunk.js",
     "static/media/project6-v1.mp4": "/anna-katsur-portfolio/static/media/project6-v1.e194402fbcc474d33b10.mp4",
     "static/media/project2-v4.mp4": "/anna-katsur-portfolio/static/media/project2-v4.5bb9b537a49db061f9f5.mp4",
@@ -130,11 +130,11 @@
     "static/media/anna_mob_pic.png": "/anna-katsur-portfolio/static/media/anna_mob_pic.f851c6041abed00b4019.png",
     "index.html": "/anna-katsur-portfolio/index.html",
     "main.bf92e834.css.map": "/anna-katsur-portfolio/static/css/main.bf92e834.css.map",
-    "main.26056c13.js.map": "/anna-katsur-portfolio/static/js/main.26056c13.js.map",
+    "main.896bc872.js.map": "/anna-katsur-portfolio/static/js/main.896bc872.js.map",
     "453.bbfee25a.chunk.js.map": "/anna-katsur-portfolio/static/js/453.bbfee25a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf92e834.css",
-    "static/js/main.26056c13.js"
+    "static/js/main.896bc872.js"
   ]
 }
